@@ -63,7 +63,7 @@ header > p {
     text-shadow: 1px 3px 3px #1A5C38;
 }
 
-header > a {
+nav > a {
     margin-right: -5px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
