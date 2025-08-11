@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            width: 145px;
+        }
+
+        div > img { /*usar > para indicar oq estah dentro da div e alterar somente esse elemento*/
+            display: none;
+        }
+
+        div:hover > img { /*usar : para indicar uma pseudoclasse (estado de elementos em html), por exemplo hover, q eh qndo passamos o mouse por cima do texto ou imagem e ele altera*/
+            display: block;
+        }
+
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <div>Passe o mouse aqui
+        <p> </p>
+        <img src="../Fotos/jerebatma-redondo.png" alt="" width="150px">
+    </div>
+</body>
+</html>

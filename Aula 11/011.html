@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Abrindo a mesma imagem em diferentes telas</p>
+    <p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="../Imagensp,m,g/fotop.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="../Imagensp,m,g/fotom.png" type="image/png">
+            <img src="../Imagensp,m,g/fotog.png" alt="imagem flexivel">
+        </picture>
+    </p> <!-- usar a tag picture para mudar o tamanho da imagem de acordo com a tela q o usuario esta usando. Usar a tag source parametro media para conseguir limitar o tamanho da imagem para cada tipo de tela -->
+    <h1>Reproduzindo audio</h1>
+    <p>Bora aprender como reproduzir audio em HTML5</p>
+    <audio src="happy-mistake.mp3" controls autoplay></audio> <br>
+    <!-- compativel com audios mp3(mpeg), wav, ogg-->
+     <audio preload="metadata" autoplay controls>
+        <source src="happy-mistake.mp3" type="audio/mpeg">
+     </audio> <!-- podemos tambem add audio com a tag audio e dentro dela usar a tag source parametro src -->
+     <!-- usar o parametro controls para ter o controle sobre o audio -->
+</body>
+</html>

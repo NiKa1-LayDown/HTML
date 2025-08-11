@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            width: fit-content;
+            border-width: 10px;
+            border-color: rgb(0, 0, 0);
+            border-style: dotted;
+            border-radius: 10px;
+            /*podemos usar uma shorthand aqui:
+                border: width, color, style
+            */
+
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            /*podemos usar uma shorthand aqui, ou usar somente um valor se todos os lados forem iguais, ou dois valores se o de cima e debaixo; direita e esquerda forem iguais:
+                padding: top, right, bottom, left
+            */
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            /*podemos usar uma shorthand aqui, ou usar somente um valor se todos os lados forem iguais, ou dois valores se o de cima e debaixo; direita e esquerda forem iguais:
+                margin: top, right, bottom, left
+            */
+            outline-width: 5px;
+            outline-color: aqua;
+            outline-style: dashed;
+            /*podemos usar uma shorthand aqui:
+                outline: width, color, style
+            */
+        }
+
+        /*podemos transformar um box em inline ou em block usando display: inline ou block*/
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="https://www.youtube.com/" target="_blank"> links são exemplos de caixas inline-level. </a> Vamos ver como isso funciona</p>
+
+</body>
+</html>

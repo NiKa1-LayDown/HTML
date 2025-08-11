@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+:root { /*usar root para declarar variaveis e ficar mais facil de mudar alguma coisa se for preciso durante o projeto*/
+    --cor0: #ffffff;
+    --cor1: #aafacd;
+    --cor2: #84E1AD;
+    --cor3: #3ebd75;
+    --cor4: #1A5C38;
+    
+    --fontepadrao: Arial, Helvetica, sans-serif;
+}
+    /*Usar o simbolo de asterisco para fazer um seletor global, isso eh, mudar todas as css de uma vez e tirar ou adicionar margin, padding, border, etc*/
+
+@font-face {
+    font-family: droid;
+    src: url('pojetosite/fontes/idroid.otf'), format(otf);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url('pojetosite/fontes/BebasNeue-Regular.ttf'), format(otf);
+}
+
+body {
+    background-color: var(--cor2);
+    font-family: var(--fontepadrao);
+}
+
+.negrito {
+    font-weight: 700;
+}
+
+.cornegrito {
+    font-weight: bold;
+    color: var(--cor4);
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    box-shadow: 0px 3px 15px var(--cor4);
+    color: var(--cor0);
+    margin-block: auto;
+    height: 211px;
+    margin: -10px -8px 0px -8px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: bebas;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 1px 3px 3px #1A5C38;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -15px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 1px 3px 3px #1A5C38;
+}
+
+nav {
+    margin: 10px;
+}
+
+nav > a {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 1px 3px 3px #1A5C38;
+}
+
+nav > a:hover {
+    background-color: #84E1AD;
+    color: #1A5C38;
+    text-shadow: none;
+    transition-duration: 0.2s;
+}
+
+p > a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+p > a::after {
+    content: '🔗';
+}
+
+p > a:visited {
+    color: #1A5C38;
+}
+
+p > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    min-width: 250px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 6px #1A5C38;
+    padding: 10px;
+    line-height: 25px;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.estilo { /*h2, h3*/
+    font-family: droid;
+    color: #1A5C38;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #84E1AD, transparent);
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.robozinho {
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    margin: 0px -10px 0 -10px;
+    background-color: #1A5C38;
+}
+
+.player {
+    padding: 15px;
+    aspect-ratio: 16/9;
+    max-width: 100%;
+    height: auto;
+}
+
+aside {
+    box-shadow: 0px 0px 3px #1A5C38;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 1px 15px 2px 15px;
+    background-color: #aafacd;
+}
+
+/*
+                             usar \00A0 para dar um espaço entre o icone e o texto
+    list-style-type: ;       usar \ e o codigo para mudar o icone das listas
+    list-style-position: ;   usar para mudar a posição do icone das listas
+
+*/
+
+.coluna {
+    column-count: 2;    
+}
+
+.paragrafo{
+    text-indent: 0px;
+    box-shadow: 0px 0px 3px #1A5C38;
+    font-weight: bold;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+    margin: -3px -15px 0px -15px;
+    background-color: #3ebd75;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 10px -8px -10px -8px;
+    font-size: small;
+    background-color: #1A5C38;
+}

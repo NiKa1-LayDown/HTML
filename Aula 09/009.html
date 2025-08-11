@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Fazendo listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="A" start="2">
+        <li>Acordar</li>
+        <li>Agradar o Jere</li>
+        <li>Colocar comida pro Jere</li>
+        <li>Trocar a agua do Jere</li>
+        <li>Agradar  o Jere de novo</li>
+        <li>Brincar com o Jere</li>
+    </ol> <!-- usar a tag ol para começar uma lista e dentro dessa tag usar a tag li para colocar os itens em ordem sem precisar numerar -->
+    <!-- o padrao da tag ol eh usar lista em numeros, mas podemos usar o parametro type dentro da tag ol para mudar o tipo da lista: colocar por letras, numeros, numeros romanos, etc -->
+     <!-- pode se usar ainda outro parametro, o start, para começar a lista nao do numero 1 ou da letra a por exemplo e sim mais adiante, mas sempre usando numeros com o parametro start, n importa se a lista eh em letras por exmplo -->
+      <h2>Listas não ordenadas</h2>
+      <ul>
+        <li>Levantar</li>
+        <li>Agradar o Mias</li>
+        <li>Dar comida pro Mias</li>
+        <li>Trocar a agua do Mias</li>
+        <li>Agradar o Mias de novo</li>
+      </ul> <!-- usar a tag ul quando fazemos uma lista nao numerada, aquelas com uma bolinha, um circulozinho ou um quadradinho antes de cada item. Pra mudar o tipo tbm usa o parametro type, mas agora com disc, circle ou square -->
+      <h2>Juntando listas</h2>
+      <ol>
+        <li>Jeremias</li>
+        <ul type="disc">
+            <li>Levantar</li>
+            <li>Agradar o Jere</li>
+            <li>Dar comida pro Jere</li>
+        </ul>
+        <li>Shiva</li>
+        <ul type="square">
+            <li>Levantar</li>
+            <li>Agradar a Shiva</li>
+            <li>Dar comida pra Shiva</li>
+        </ul>
+      </ol> <!-- usar alt para clicar e conseguir apagar/trocar mais de uma tag ao mesmo tempo -->
+      <!-- pode usar lista dentro de lista, sem problema -->
+       <h2>Lista de definições</h2>
+       <dl>
+        <dt>Jeremias</dt>
+        <dd>Gato gordo, fofo que gosta de morder quando pegam na barriga dele</dd>
+        <dt>Shiva</dt>
+        <dd>Cachorro fofo grande e dócil, mas muito sarna, tadinha</dd>
+       </dl> <!-- dt é uma tag usada como se fosse um dicionario, coloca a palavra na tag dt e a definição dela na tag dd -->
+</body>
+</html>
