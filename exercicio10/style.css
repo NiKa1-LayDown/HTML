@@ -41,7 +41,7 @@ header {
     box-shadow: 0px 3px 15px var(--cor4);
     color: var(--cor0);
     margin-block: auto;
-    height: 180px;
+    height: 250px;
     margin: -10px -8px 0px -8px;
     padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -57,17 +57,14 @@ h1 {
 
 header > p {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: -15px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 54px;
     text-align: center;
     text-shadow: 1px 3px 3px #1A5C38;
 }
 
-nav {
-    margin: 10px;
-}
-
 nav > a {
+    margin-right: -5px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -103,7 +100,7 @@ p > a:hover {
 
 main {
     max-width: 800px;
-    min-width: 100px;
+    min-width: 200px;
     margin: auto;
     background-color: white;
     box-shadow: 0px 0px 6px #1A5C38;
