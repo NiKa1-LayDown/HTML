@@ -1,11 +1,10 @@
-# HTMLeCSS
+# NiKaum LayDown
 
-<head>
-    <html lang="pt-br">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NiKaum LayDown</title>
-</head>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NiKaum LayDown</title>
+
 
 Tamo na luta carai
 
