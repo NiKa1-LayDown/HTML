@@ -61,6 +61,7 @@ header > p {
     margin-bottom: 30px;
     text-align: center;
     font-size: smaller;
+    margin-left: -15px;
     text-shadow: 1px 3px 3px #1A5C38;
 }
 
