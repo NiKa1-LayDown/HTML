@@ -100,7 +100,7 @@ p > a:hover {
 
 main {
     max-width: 800px;
-    min: width 350px;
+    min-width: 400px;
     margin: auto;
     background-color: white;
     box-shadow: 0px 0px 6px #1A5C38;
