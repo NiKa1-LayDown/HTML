@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <style>
+        body {
+            background-image: url();
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        div.quadrado {
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgrey;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+        }
+
+        div#q1 {
+            background-image: url(../Fotos/jeremagrin.jpeg);
+            background-size: 250%;
+            background-position: -280px -370px;
+        }
+
+        div#q2 {
+            background-image: url(../Fotos/jerebatma.jpeg);
+            background-size: 105%;
+        }
+
+        div#q3 {
+            background-image: url(../Fotos/jeregordin.jpeg);
+            background-size: cover;
+            background-position: 0px -70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+
+    <div class="quadrado" id="q2">
+
+    </div>
+
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>
