@@ -10,40 +10,72 @@
     src: url(fontes/Sriracha-Regular.ttf), format(ttf);
 }
 
+:root {
+    --font1: "passion";
+    --font2: "sri";
+    --font3: "Verdana", "Geneva", "Tahoma", "sans-serif";
+
+    --cor1: black;
+    --cor2: white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
+    min-height: 100vh;
+    background-color: var(--cor2);
     margin: 0px;
     padding: 0px;
 }
 
 header {
     height: 215px;
-    background-color: black;
+    background-color: var(--cor1);
+    text-size-adjust: 100%;
 }
 
 header > h1 {
     font-variant: small-caps;
-    font-size: 85px;
+    font-size: 10vw;
     text-align: center;
-    color: white;
-    font-family: passion;
+    color: var(--cor2);
+    font-family: var(--font1);
     font-weight: lighter;
     padding-top: 50px;
-    margin-bottom: -15px;
-     margin-top: 0px;
+    margin: auto;
+    height: fit-content;
 }
 
 header > p {
+    margin-block: auto;
     text-align: center;
-    font-family: Verdana, Tahoma, sans-serif;
-    color: white;
+    font-family: var(--font3);
+    color: var(--cor2);
+    padding-bottom: 50px;
 }
 
 p > a {
     font-weight: bold;
-    color: white;
+    color: var(--cor2);
     text-decoration: none;
 }
 
 p > a:hover {
     text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte32);
+    font-size: 3.5vw;
+}
+
+p {
+    font-family: var(--font2);
 }
