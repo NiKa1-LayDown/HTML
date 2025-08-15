@@ -32,9 +32,9 @@ body {
 }
 
 header {
-    height: 215px;
+    height: auto;
     background-color: var(--cor1);
-    text-size-adjust: 100%;
+    text-align: center;
 }
 
 header > h1 {
@@ -45,8 +45,6 @@ header > h1 {
     font-family: var(--font1);
     font-weight: lighter;
     padding-top: 50px;
-    margin: auto;
-    height: fit-content;
 }
 
 header > p {
@@ -78,4 +76,27 @@ section {
 
 p {
     font-family: var(--font2);
+}
+
+.normal {
+    background-color: var(--cor2);
+}
+
+.imagem {
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+
+#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
+section.imagem > p {
+    color: var(--cor2);
+    display: inline-block;
+    background-color: rgb(0, 0, 0, .514);
+    padding: 5px;
+    font-size: 1em;
 }
