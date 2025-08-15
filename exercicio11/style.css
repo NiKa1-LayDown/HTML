@@ -31,7 +31,6 @@ body {
 }
 
 header {
-    height: auto;
     background-color: var(--cor1);
     text-align: center;
 }
@@ -39,7 +38,6 @@ header {
 header > h1 {
     font-variant: small-caps;
     font-size: 10vw;
-    text-align: center;
     color: var(--cor2);
     font-family: var(--font1);
     font-weight: lighter;
@@ -47,8 +45,6 @@ header > h1 {
 }
 
 header > p {
-    margin-block: auto;
-    text-align: center;
     font-family: var(--font3);
     color: var(--cor2);
     padding-bottom: 50px;
