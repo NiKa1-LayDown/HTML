@@ -71,7 +71,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte32);
-    font-size: 4vw; /*usar vw para o texto mudar de tamanho conforme o tamanho da tela do usuario*/
+    font-size: 4vw; /*usar vw para deixar o texto com certa % conforme o tamanho da tela do usuario*/
 }
 
 p {
