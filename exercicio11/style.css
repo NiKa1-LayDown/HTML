@@ -25,7 +25,6 @@
 }
 
 body {
-    min-height: 100vh;
     background-color: var(--cor2);
     margin: 0px;
     padding: 0px;
@@ -55,14 +54,18 @@ header > p {
     padding-bottom: 50px;
 }
 
-p > a {
+a {
     font-weight: bold;
     color: var(--cor2);
     text-decoration: none;
 }
 
-p > a:hover {
+a:hover {
     text-decoration: underline;
+}
+
+a::after {
+    content: '🔗';
 }
 
 section {
@@ -71,7 +74,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte32);
-    font-size: 3.5vw;
+    font-size: 4vw; /*usar vw para o texto mudar de tamanho conforme o tamanho da tela do usuario*/
 }
 
 p {
@@ -93,10 +96,24 @@ p {
     background-position: right center;
 }
 
+#img2 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+}
+
 section.imagem > p {
-    color: var(--cor2);
     display: inline-block;
+    color: var(--cor2);
     background-color: rgb(0, 0, 0, .514);
     padding: 5px;
     font-size: 1em;
+}
+
+footer {
+    background-color: var(--cor1);
+    font-family: var(--font2);
+    text-align: center;
+    color: var(--cor2);
 }
