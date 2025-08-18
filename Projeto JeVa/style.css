@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: black;
+}
+
+main {
+    min-width: 400px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: black;
+}
+
+header {
+    padding-top: 140px;
+    padding-bottom: 136px;
+    background-color: black;
+}
+
+section {
+    display: inline-block;
+    height: 240px;
+    width: 240px;
+    background-color: blue;
+}
+
+aside {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 200px;
+    width: 400px;
+    background-image: url(../Fotos/jerebatma-redondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    padding-top: 140px;
+    padding-bottom: 136px;
+    background-color: black;
+}
+
