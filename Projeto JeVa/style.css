@@ -12,49 +12,68 @@ body {
 
 main {
     min-width: 400px;
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 header {
-    padding-top: 140px;
-    padding-bottom: 136px;
+    height: 240px;
     background-color: white;
 }
 
 #sec1 {
     height: 240px;
-    background-color: rgb(231, 192, 166);
+    background-color: #ebcab3;
     box-shadow: inset 0px 0px 5px 0px black;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-bottom: 0px;
 }
 
 #sec3 {
+    margin-top: 0px;
+    margin-left: 3px;
     height: 240px;
-    background-color: white;
 }
 
 #sec2 {
-    margin: auto;
+    text-align: end;
+    margin-left: 3px;
+    margin-right: 3px;
     height: 240px;
-    background-color: rgb(209, 201, 201);
+    background-color: #eee5dd;
     box-shadow: inset 0px 0px 5px 0px black;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 #img1 {
-    border-radius: 120px;
     box-shadow: 0px 0px 4px black;
     display: inline-block;
-    background-color: blue;
-    height: 250px;
+    background-color: white;
+    height: 400px;
     width: 240px;
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: -215px -350px;
+    margin-top: -258px;
+    margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#img1:hover {
     background-image: url(../Fotos/jeremagrin.jpeg);
     background-repeat: no-repeat;
-    background-size: 150%;
-    background-position: -710px;
-    margin-top:-180px;
-    margin-left: 10px;
-    background-attachment: fixed;
+    background-size: 250%;
+    background-position: -215px -350px;
+    margin-top: -258px;
+    margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #img2 {
@@ -68,19 +87,27 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -50px;
-    margin-top: -80px;
-    margin-left: 10px;
+    margin-top: -258px;
+    margin-right: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
-p {
-    text-shadow: 1px 0px 1px black;
+#sec1 > p {
+    text-shadow: 0px 0px 1px black;
     padding-top: 35px;
-    display: block;
-    padding-right: 5vw;
+    padding-right: 4vw;
     color: black;
     text-align: end;
+    font-size: 25px;
+}
+
+#sec2 > p {
+    text-shadow: 0px 0px 1px black;
+    padding-top: 35px;
+    padding-left: 4vw;
+    text-align: left;
+    color: black;
     font-size: 25px;
 }
 
@@ -89,4 +116,5 @@ footer {
     padding-bottom: 136px;
     background-color: white;
 }
+
 
