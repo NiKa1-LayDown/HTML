@@ -24,7 +24,7 @@ main {
 
 header {
     box-shadow: inset 0px 0px 5px 0px black;
-    height: 240px;
+    height: 190px;
     margin-bottom: 14px;
     margin-left: 3px;
     margin-right: 3px;
@@ -94,40 +94,38 @@ header > p {
 }
 
 #img1 {
-    box-shadow: 0px 0px 2px black;
-    display: inline-block;
+    box-shadow: 0px 0px 4px black;
     background-color: white;
     width: 180px;
     height: 320px;
-    margin-top: -161px;
+    margin-top: -162px;
     margin-left: 18px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 #img2 {
-    box-shadow: 0px 0px 2px black;
-    display: inline-block;
+    box-shadow: 0px 0px 4px black;
     background-color: white;
     width: 180px;
     height: 320px;
     margin-right: auto;
-    margin-top: -161px;
+    margin-top: -162px;
     margin-right: 18px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 #img3 {
-    box-shadow: 0px 0px 2px black;
-    display: inline-block;
+    box-shadow: 0px 0px 4px black;
     background-color: white;
     width: 180px;
     height: 320px;
-    margin-top: -161px;
+    margin-top: -162px;
     margin-left: 18px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    
 }
 
 #sec1 > p {
