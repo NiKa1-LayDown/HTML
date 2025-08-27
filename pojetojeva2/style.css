@@ -29,8 +29,6 @@ header {
     margin-left: 3px;
     margin-right: 3px;
     background-color: rgba(0, 0, 0, 0.801);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
 header > h1 {
@@ -98,7 +96,7 @@ header > p {
     background-color: white;
     width: 180px;
     height: 320px;
-    margin-top: -162px;
+    margin-top: -164px;
     margin-left: 18px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -110,7 +108,7 @@ header > p {
     width: 180px;
     height: 320px;
     margin-right: auto;
-    margin-top: -162px;
+    margin-top: -164px;
     margin-right: 18px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -121,7 +119,7 @@ header > p {
     background-color: white;
     width: 180px;
     height: 320px;
-    margin-top: -162px;
+    margin-top: -164px;
     margin-left: 18px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -150,7 +148,7 @@ header > p {
     color: white;
     text-shadow: 0px 0px 1px black;
     padding-top: 47px;
-    padding-right: 5vw;
+    padding-right: 4vw;
     text-align: end;
     font-size: 20px;
 }
@@ -195,8 +193,6 @@ header > p {
 }
 
 footer {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     color: white;
