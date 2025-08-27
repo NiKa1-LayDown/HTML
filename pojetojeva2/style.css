@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: luck;
+    src: url(font/LuckiestGuy-Regular.ttf), format(ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+main {
+    min-width: 500px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    box-shadow: inset 0px 0px 5px 0px black;
+    height: 240px;
+    margin-bottom: 14px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header > h1 {
+    color: white;
+    font-family: luck;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 75px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+header > p {
+    font-variant: small-caps;
+    font-family: luck;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#sec1 {
+    height: 240px;
+    background-color: #ebcab3;
+    box-shadow: inset 0px 0px 5px 0px black;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-bottom: 0px;
+}
+
+.sec {
+    margin-top: 0px;
+    margin-left: 3px;
+    height: 95px;
+}
+
+#sec2 {
+    text-align: end;
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 240px;
+    background-color: #eee5dd;
+    box-shadow: inset 0px 0px 5px 0px black;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#sec3 {
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.801);
+    box-shadow: inset 0px 0px 5px 0px black;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-bottom: 0px;
+}
+
+#img1 {
+    box-shadow: 0px 0px 4px black;
+    display: inline-block;
+    background-color: white;
+    width: 180px;
+    height: 320px;
+    margin-top: -210px;
+    margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#img2 {
+    box-shadow: 0px 0px 4px black;
+    display: inline-block;
+    background-color: white;
+    width: 180px;
+    height: 320px;
+    margin-right: auto;
+    margin-top: -210px;
+    margin-right: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#img3 {
+    box-shadow: 0px 0px 4px black;
+    display: inline-block;
+    background-color: white;
+    width: 180px;
+    height: 320px;
+    margin-top: -210px;
+    margin-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#sec1 > p {
+    text-shadow: 0px 0px 1px black;
+    padding-top: 35px;
+    padding-right: 4vw;
+    color: black;
+    text-align: end;
+    font-size: 24px;
+}
+
+#sec2 > p {
+    text-shadow: 0px 0px 1px black;
+    padding-top: 35px;
+    padding-left: 4vw;
+    text-align: left;
+    color: black;
+    font-size: 24px;
+}
+
+#sec3 > p {
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    padding-top: 35px;
+    padding-right: 5vw;
+    text-align: end;
+    font-size: 24px;
+}
+
+#sec1 > p > a {
+    color: black;
+}
+
+#sec1 > p > a:hover {
+    text-decoration: underline;
+}
+
+#sec1 > p > a::after {
+    color: black;
+    text-decoration: none;
+}
+
+#sec2 > p > a {
+    color: black;
+}
+
+#sec2 > p > a:hover {
+    text-decoration: underline;
+}
+
+#sec2 > p > a::after {
+    color: black;
+    text-decoration: none;
+}
+
+#sec3 > p > a {
+    color: white;
+}
+
+#sec3 > p > a:hover {
+    text-decoration: underline;
+}
+
+#sec3 > p > a::after {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    margin-top: 95px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+footer > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ footer > a:hover {
+    text-decoration: underline;
+}
+
+footer > a::after {
+    content: '🔗';
+}
+
