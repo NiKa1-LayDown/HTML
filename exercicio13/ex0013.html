@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="pacote-d013/favicon.ico" type="image/x-icon">
     <style>
         body {
-            height: 98vh;
+            height: 97vh;
             background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
             background-size: cover;
             background-repeat: no-repeat;
@@ -15,43 +15,61 @@
         }
 
         main {
-            max-width: 800px;
             min-width: 350px;
             margin: auto;
             background-image: url(pacote-d013/imagens/frame-iphone.png);
+            position: relative;
             background-repeat: no-repeat;
             background-position: center center;
             height: 100%;
         }
 
         iframe {
-            background-image: url(pacote-d013/imagens/tela-home.jpg);
-            background-size: cover;
-            position: relative;
-            left: 49.9%;
-            top: 50.1%;
+            background-color: black;
+            background-size: contain;
+            position: absolute;
+            left: 50%;
+            top: 50.2%;
             transform: translate(-50%, -50%);
-            width: 267px;
+            width: 268px;
             height: 471.5px;
         }
 
         img {
-            position: absolute;
-            display: flex;
-            justify-content: flex-end;
             border-radius: 30px;
             height: 50px;
             width: auto;
-            margin-left: auto;
+        }
+
+        p {
+            text-align: end;
         }
     </style>
 </head>
 <body>
-    <a href="ex0013.2.html" target="frame"><img src="pacote-d013/imagens/logo-instagram.jpg" alt=""></a>
-    <a href=""></a>
-    <a href=""></a>
-    <a href=""></a>
+    
     <main>
+        <p>
+            <a href="ex0013.home.html" target="frame"><img src="pacote-d013/imagens/logo-home.jpg" alt=""></a>
+        </p>
+        <p>
+            <a href="ex0013.yout.html" target="frame"><img src="pacote-d013/imagens/logo-youtube.jpg" alt=""></a>
+        </p>
+        <p>
+            <a href="ex0013.git.html" target="frame"><img src="pacote-d013/imagens/logo-github.jpg" alt=""></a>
+        </p>
+        <p>
+            <a href="ex0013.insta.html" target="frame"><img src="pacote-d013/imagens/logo-instagram.jpg" alt=""></a>
+        </p>
+        <p>
+            <a href="ex0013.twit.html" target="frame"><img src="pacote-d013/imagens/logo-twitter.jpg" alt=""></a>
+        </p>
+        <p>
+            <a href="ex0013.face.html" target="frame"><img src="pacote-d013/imagens/logo-facebook.jpg" alt=""></a>
+        </p>
+        <p>
+            <a href="ex0013.turn.html" target="frame"><img src="pacote-d013/imagens/logo-desligar.png" alt=""></a>
+        </p>
         <iframe id="home" name="frame" src="" frameborder="1"></iframe>
     </main>
 </body>
