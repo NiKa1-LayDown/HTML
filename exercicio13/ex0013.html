@@ -19,27 +19,40 @@
             min-width: 350px;
             margin: auto;
             background-image: url(pacote-d013/imagens/frame-iphone.png);
-            background-attachment: fixed;
             background-repeat: no-repeat;
             background-position: center center;
-            height: 98vh;
+            height: 100%;
         }
 
         iframe {
             background-image: url(pacote-d013/imagens/tela-home.jpg);
-            display: block;
-            background-size: 40%;
-            background-repeat: no-repeat;
-            background-position: center center;
-            height: 706px;
-            width: 600px;
-            margin: auto;
+            background-size: cover;
+            position: relative;
+            left: 49.9%;
+            top: 50.1%;
+            transform: translate(-50%, -50%);
+            width: 267px;
+            height: 471.5px;
+        }
+
+        img {
+            position: absolute;
+            display: flex;
+            justify-content: flex-end;
+            border-radius: 30px;
+            height: 50px;
+            width: auto;
+            margin-left: auto;
         }
     </style>
 </head>
 <body>
+    <a href="ex0013.2.html" target="frame"><img src="pacote-d013/imagens/logo-instagram.jpg" alt=""></a>
+    <a href=""></a>
+    <a href=""></a>
+    <a href=""></a>
     <main>
-        <iframe src="" frameborder="0"></iframe>
+        <iframe id="home" name="frame" src="" frameborder="1"></iframe>
     </main>
 </body>
 </html>
