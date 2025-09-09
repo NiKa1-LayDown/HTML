@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required  maxlength="25" placeholder="Nome Completo"   autocomplete="name">
+                <p>
+                    <label for="inota">Nota:</label>
+                    <input type="number" name="nota" id="inota" min="0" max="10" step="0.1">
+                </p>
+                <p>
+                    <label for="iano">Ano Letivo:</label>
+                    <input type="date" name="ano" id="iano" value="2025-09-09">
+                </p>
+                <p>
+                    <label for="ihora">Horário:</label>
+                    <input type="time" name="hora" id="ihora">
+                </p>
+                <p>
+                    <label for="iemail">Email:</label>
+                    <input type="email" name="email" id="iemail">
+                </p>
+                <p>
+                    <label for="icelular">Celular:</label>
+                    <input type="tel" name="celular" id="icelular" pattern="^[0-9]{5}-[0-9]{4}$">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Apagar">
+                </p>
+            </p>
+        </fieldset>
+        <!-- Estudar regex= expressoes regulares -->
+        <!-- fieldset é usado para agrupar com uma borda varias informações de um formulario;
+             legend usamos para criar uma legenda para esse campo com borda -->
+    </form>
+</body>
+</html>

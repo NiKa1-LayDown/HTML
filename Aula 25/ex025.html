@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Primeiro Formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="" autocomplete="off">
         <p><label for="inome">Nome:</label>
             <input type="text" name="nome" id="inome">
         </p>
@@ -19,3 +19,6 @@
     </form>
 </body>
 </html>
+
+<!-- usamos method="post" para esconder as informações sensiveis enviadas pelo formulario (isso n quer dizer q estah totalmente seguro, apenas n deixa os dados na cara)
+     usamos autocomplete para completar ou nao informaçoes automaticamente (pode ser usado dentro de inputs especificos para sugerir autocompletes em diferentes contextos) -->
