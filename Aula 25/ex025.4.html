@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo Formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="Sexo" id="imasc" value="M">
+            <label for="imasc">Masculino</label>
+            <input type="radio" name="Sexo" id="ifemi" value="F">
+            <label for="ifemi">Feminino</label>
+            <!-- Lembrar de colocar o mesmo name para as opções: isso faz com que apenas uma fique marcada
+                 Usar value para mudar o valor padrao de inicio das inputs e também para enviar os dados corretamente com checkbox radio -->
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esbas" id="iesbas">
+            <label for="iesbas">Basquete</label> <br>
+            <input type="checkbox" name="esfut" id="iesfut" checked> <!-- Usar checked para ja começar a pagina com essa opção marcada por padrão -->
+            <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat">
+            <label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="esten" id="iesten">
+            <label for="iesten">Tenis</label>
+        </fieldset>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
