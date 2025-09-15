@@ -6,6 +6,46 @@
     <title>Formulários</title>
 </head>
 <body>
-    
+    <h1>Exemplo Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+           <label for="iest">Estado:</label> 
+           <select name="estado" id="iest">
+                <option value="" selected>-</option>
+                <optgroup label="Região Rica">
+                    <option value="PR">Paraná</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+
+                <optgroup label="Região Pobre">
+                    <option value="PE">Pernambuco</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="BH">Bahia</option>
+                </optgroup>
+           </select>
+           <!-- Usar select e option (optiongroup) para abrir uma caisa de lista de opções pro usuario -->
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="profissao" id="iprof" list="listaprof">
+            <datalist id="listaprof">
+                <option value="ADM">Administrador</option>
+                <option value="PROF">Professor</option>
+                <option value="ENG">Engenheiro</option>
+            </datalist>
+            <!-- Usar datalist opstion também para criar uma caixa de opçoes pro usuario, mas caso não tenha a opção desejada ele pode escreve-la -->
+        </p>
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="40" rows="10">
+            </textarea>
+            <!-- Usar textarea para deixa uma area de comentario pro usuario, USAR FORM POST -->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
