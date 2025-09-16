@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/*versão tv*/
+
+@media screen and (min-width: 1201px) {
+    main {
+        width: 55vw;
+        font-size: 1.3em;
+    }
+
+    #burguer {
+        display: none;
+    }
+}

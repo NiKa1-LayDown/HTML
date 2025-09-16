@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/*versão tablet*/
+
+@media screen and (min-width:577px) and (max-width: 992px) {
+    main {
+        width: 75vw;
+        font-size: 1.1em;
+    }
+
+    #burguer {
+        display: none;
+    }
+}
