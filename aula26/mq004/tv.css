@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-/* versão mobile*/
+/*desktop grande*/
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 1201px) {
     * {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.1em;
+        font-size: 1.4em;
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
@@ -16,7 +16,7 @@
     }
 
     body {
-        background: url(imagens/back-phone.jpg) no-repeat;
+        background: url(imagens/back-tv.jpg);
         background-size: cover;
         background-position: center center;
     }
@@ -42,7 +42,7 @@
         margin: auto;
     }
 
-    #tablet, #print, #desktop, #tv {
+    #mobile, #print, #desktop, #tablet {
         display: none;
     }
 }

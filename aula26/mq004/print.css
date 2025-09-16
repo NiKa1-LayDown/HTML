@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*versão impressora*/
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    /*impressora não imprime imagens de fundo*/
+    background: url(imagens/back-print.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.747);
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#mobile, #tablet, #desktop, #tv {
+    display: none;
+}
