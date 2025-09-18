@@ -1,0 +1,110 @@
+@charset "Utf-8";
+
+/*versão tablet*/
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    main {
+        box-shadow: 1px 1px 6px black;
+        background-image: url(back-phone.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top left;
+        background-attachment: fixed;
+        height: 300px;
+        width: 550px;
+        margin: auto;
+        margin-top: 350px;
+        border-radius: 20px;
+    }
+
+    form {
+        height: 300px;
+        width: 275px;
+        box-shadow: 1px 0px 6px black;
+        background-color: white;
+        text-align: justify;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    form > h1 {
+        margin-top: 90px;
+        font-size: large;
+        text-align: center;
+        padding: 10px;
+    }
+
+    form > p {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    img {
+        background-color: rgb(71, 145, 145);
+        margin-right: 5px;
+        position: relative;
+        top: 4px;
+        width: 18px;
+        height:18px;
+    }
+
+    #senha {
+    margin-top: 3px;
+    }
+
+    #usuario, #senha {
+        border-radius: 10px;
+        margin-right: 3px;
+        margin-left: 3px;
+        background-color: rgb(71, 145, 145);
+    }
+
+    input {
+        border-radius: 5px;
+        margin-bottom: -6px;
+        margin-top: 3px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    #enviar {
+        width: 269px;
+        height: 40px;
+        margin-bottom: 3px;
+        margin-left: -7px;
+    }
+
+    #enviar:hover {
+        cursor: pointer;
+    }
+
+    #link {
+        margin-top: -9px;
+        padding-top: 11px;
+        text-align: center;
+        width: 247px;
+        margin-left: 4px;
+    }
+
+    #link:hover {
+        margin-bottom: -2px;
+        padding-top: 10px;
+        border: 1px solid rgb(71, 145, 145);
+        margin-left: 3px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 5px;
+        cursor: pointer;
+    }
+
+    #link > a {
+        height: 10px;
+        color: rgb(59, 136, 136);
+        text-decoration: none;
+    }
+    #link > a:hover {
+        text-decoration: underline;
+    }
+}
