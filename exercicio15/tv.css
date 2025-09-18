@@ -1,8 +1,8 @@
-@charset "Utf-8";
+@charset "UTF-8";
 
-/*versão tablet*/
+/*versão tv*/
 
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 1201px) {
     main {
         box-shadow: 1px 1px 6px black;
         background-image: url(back-phone.jpg);
@@ -10,47 +10,51 @@
         background-size: cover;
         background-position: top left;
         background-attachment: fixed;
-        height: 300px;
-        width: 550px;
+        height: 500px;
+        width: 800px;
         margin: auto;
-        margin-top: 325px;
+        margin-top: 240px;
         border-radius: 20px;
     }
 
     form {
-        height: 300px;
-        width: 275px;
-        box-shadow: 1px 0px 6px black;
+        height: 500px;
+        width: 400px;
+        box-shadow: -1px 0px 6px black;
         background-color: white;
         text-align: justify;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
+        position: relative;
+        left: 400px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
     }
 
     form > h1 {
         margin-top: 90px;
-        font-size: large;
+        font-size: 40px;
         text-align: center;
-        padding: 10px;
+        padding: 15px;
     }
 
     form > p {
         padding-right: 10px;
         padding-left: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
+        font-size: 23px;
     }
 
     img {
         background-color: rgb(71, 145, 145);
         margin-right: 5px;
         position: relative;
-        top: 4px;
-        width: 18px;
-        height:18px;
+        top: 10px;
+        width: 35px;
+        height:35px;
+        margin-left: 3px;
     }
 
     #senha {
-    margin-top: 3px;
+    margin-top: 10px;
     }
 
     #usuario, #senha {
@@ -63,15 +67,15 @@
     input {
         border-radius: 5px;
         margin-bottom: -6px;
-        margin-top: 3.5px;
-        height: 30px;
-        font-size: 15px;
-        width: 215px;
+        margin-top: 10px;
+        height: 55px;
+        font-size: 25px;
+        width: 320px;
     }
 
     #enviar {
-        width: 269px;
-        height: 40px;
+        width: 393px;
+        height: 50px;
         margin-bottom: 3px;
         margin-left: -7px;
     }
@@ -81,22 +85,22 @@
     }
 
     #link {
-        margin-top: -9px;
+        margin-top: -7px;
         padding-top: 11px;
         text-align: center;
-        width: 247px;
-        margin-left: 4px;
+        width: 370px;
+        margin-left: 5px;
     }
 
     #link:hover {
         margin-bottom: -2px;
         padding-top: 10px;
         border: 1px solid rgb(71, 145, 145);
-        margin-left: 3px;
+        margin-left: 4px;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 20px;
         cursor: pointer;
     }
 

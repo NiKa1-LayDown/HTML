@@ -10,22 +10,23 @@
         background-size: cover;
         background-position: top left;
         background-attachment: fixed;
-        height: 500px;
+        height: 580px;
         width: 250px;
         margin: auto;
-        margin-top: 200px;
+        margin-top: 180px;
         border-radius: 20px;
     }
 
     form {
         box-shadow: 0px -1px 6px black;
         position: relative;
-        top: 206px;
+        top: 265px;
         margin-top: 90px;
         background-color: white;
         text-align: justify;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
+        padding-bottom: 5px;
     }
 
     form > h1 {
@@ -46,7 +47,7 @@
         background-color: rgb(71, 145, 145);
         margin-right: 5px;
         position: relative;
-        top: 4px;
+        top: 3px;
         width: 18px;
         height:18px;
     }
@@ -65,7 +66,7 @@
     input {
         border-radius: 5px;
         margin-bottom: -3px;
-        margin-top: 3px;
+        margin-top: 6px;
         height: 30px;
         font-size: 15px;
     }
@@ -73,7 +74,7 @@
     #enviar {
         width: 244px;
         height: 40px;
-        margin-bottom: 5px;
+        margin-bottom: 3px;
         margin-left: -7px;
     }
 
@@ -82,11 +83,11 @@
     }
 
     #link {
-        margin-top: -9px;
         padding-top: 11px;
         text-align: center;
         width: 222px;
         margin-left: 4px;
+        margin-top: -9px;
     }
 
     #link:hover {
@@ -108,9 +109,5 @@
     }
     #link > a:hover {
         text-decoration: underline;
-    }
-
-    #extra {
-        margin-top: -2px;
     }
     }
