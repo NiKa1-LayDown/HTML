@@ -70,7 +70,7 @@
         margin-bottom: -4px;
         margin-top: 1px;
         height: 30px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     #enviar {
@@ -86,16 +86,16 @@
     }
 
     #link {
-        padding-top: 11px;
+        padding-top: 9px;
         text-align: center;
         width: 231px;
         margin-left: 4px;
-        margin-top: -6px;
+        margin-top: -5px;
     }
 
     #link:hover {
         margin-bottom: -2px;
-        padding-top: 10px;
+        padding-top: 8px;
         border: 1px solid rgb(71, 145, 145);
         margin-left: 3px;
         border-bottom-left-radius: 20px;
