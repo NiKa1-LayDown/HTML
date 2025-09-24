@@ -4,6 +4,7 @@
 
 @media screen and (max-width: 576px) {
     main {
+        box-shadow: 1px 1px 6px black;
         background-image: url(back-phone.jpg);
         background-position: cover;
         background-repeat: no-repeat;
