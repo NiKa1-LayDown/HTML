@@ -3,17 +3,15 @@
 /*versão tv*/
 
 @media screen and (min-width: 1201px) {
-    main {
+    section {
         box-shadow: 1px 1px 6px black;
         background-image: url(back-phone.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top left;
-        background-attachment: fixed;
         height: 500px;
         width: 800px;
         margin: auto;
-        margin-top: 240px;
         border-radius: 20px;
     }
 

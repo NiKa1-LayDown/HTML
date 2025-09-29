@@ -3,19 +3,19 @@
 /*versão mobile*/
 
 @media screen and (max-width: 576px) {
-    main {
+    section {
         box-shadow: 1px 1px 6px black;
         background-image: url(back-phone.jpg);
-        background-position: cover;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: top center;
+        background-position: center center;
         border-radius: 20px;
         height: 500px;
         width: 250px;
         position: relative;
         top: 100px;
         margin: auto;
+        margin-top: 50px;
     }
 
     form {
