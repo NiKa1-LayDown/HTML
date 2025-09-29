@@ -9,8 +9,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center left;
-        position: relative;
-        top: 250px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         height: 400px;
         width: 675px;
         margin: auto;
