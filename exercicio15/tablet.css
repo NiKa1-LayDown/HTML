@@ -10,10 +10,10 @@
         background-size: cover;
         background-position: top left;
         position: relative;
+        top: 300px;
         height: 300px;
         width: 550px;
         margin: auto;
-        margin-top: 200px;
         border-radius: 20px;
     }
 
@@ -28,7 +28,6 @@
     }
 
     form > h1 {
-        margin-top: 90px;
         font-size: large;
         text-align: center;
         padding: 10px;
