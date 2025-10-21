@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*CONFIGURAÇÃO CELULAR*/
+
+@media screen and (max-width: 576px) {
+    section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 20px;
+    }
+
+    .pai {
+        background-image: url(../Fotos/jeremagrin200.jpeg);
+        background-size: 100%;
+        background-position: 0px -100px;
+        background-repeat: no-repeat;
+        border: solid 2px black;
+        display: flex;
+        flex-flow: row wrap;
+        width: 450px;
+        margin: auto;
+    }
+
+    .filho {
+        background-color: white;
+        padding: 30px;
+        border: dashed 1px black;
+        flex: auto;
+    }
+}
