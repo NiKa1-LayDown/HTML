@@ -37,20 +37,18 @@ section {
     background-size: cover;
     background-position: 0px -160px;
     background-repeat: no-repeat;
-    border: solid 1px black;
+    border: solid 2px black;
     display: flex;
     flex-flow: row wrap;
+    width: 450px;
+    margin: auto;
 }
 
 .filho {
     background-color: white;
-    padding: 20px;
-    border: solid 1px black;
+    padding: 30px;
+    border: dashed 1px black;
     flex: auto;
-}
-
-.filho:hover {
-    visibility: hidden;
 }
 
 footer {
