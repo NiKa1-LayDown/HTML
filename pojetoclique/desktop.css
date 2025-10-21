@@ -2,28 +2,28 @@
 
 /*CONFIGURAÇÃO DESKTOP*/
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
     section {
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 71px;
+        margin-bottom: 71px;
         padding: 20px;
     }
 
     .pai {
-        background-image: url(../Fotos/jeremagrin200.jpeg);
-        background-size: 100%;
-        background-position: 0px -100px;
+        background-image: url(vampetaço.png);
+        background-size: cover;
+        background-position: 0px -80px;
         background-repeat: no-repeat;
         border: solid 2px black;
         display: flex;
         flex-flow: row wrap;
-        width: 9px;
+        width: 800px;
         margin: auto;
     }
 
     .filho {
         background-color: white;
-        padding: 40px;
+        padding:40px;
         border: dashed 1px black;
         flex: auto;
     }
