@@ -4,8 +4,8 @@
 
 @media screen and (max-width: 899px) {
     section {
-        margin-top: 135px;
-        margin-bottom: 135px;
+        margin-top: 170px;
+        margin-bottom: 170px;
         padding: 20px;
     }
 
@@ -17,13 +17,13 @@
         border: solid 2px black;
         display: flex;
         flex-flow: row wrap;
-        width: 400px;
+        width: 300px;
         margin: auto;
     }
 
     .filho {
         background-color: white;
-        padding: 25px;
+        padding: 20px;
         border: dashed 1px black;
         flex: auto;
     }
