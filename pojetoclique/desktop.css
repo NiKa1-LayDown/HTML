@@ -3,6 +3,10 @@
 /*CONFIGURAÇÃO DESKTOP*/
 
 @media screen and (min-width: 900px) {
+    header {
+        font-size: 1.5em;
+    }
+    
     section {
         margin-top: 71px;
         margin-bottom: 71px;
