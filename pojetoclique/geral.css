@@ -11,6 +11,10 @@ body {
     height: 100vh;
 }
 
+main {
+    height: 100vh;
+    }
+
 header {
     background-color: rgb(223, 221, 221);
     height: 150px;
