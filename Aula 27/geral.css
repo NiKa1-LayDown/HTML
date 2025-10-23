@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*CONFIG GERAL*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+}
+
+main > header {
+    display: flex;
+    align-items: flex-end;
+}
+
+main > header > menu > ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+main > header > menu > ul > li {
+    padding: 10px;
+    background-color: lightgray;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+main > article {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    width: 800px;
+}
