@@ -16,27 +16,21 @@ main {
 }
 
 main > header {
-    display: flex;
-    align-items: flex-end;
-}
-
-main > header > menu > ul {
+    background-color: antiquewhite;
+    padding: 5px;
+    height: 100px;
     display: flex;
     align-items: center;
-    list-style-type: none;
-    padding: 10px;
+    flex-flow: row wrap;
 }
 
-main > header > menu > ul > li {
-    padding: 10px;
-    background-color: lightgray;
-    flex-basis: 300px;
-    flex-grow: 1;
+main > header > menu {
+    display: flex;
+    flex: 1 1 150px;
 }
 
 main > article {
     padding-left: 20px;
     padding-right: 20px;
     margin: auto;
-    width: 800px;
 }
