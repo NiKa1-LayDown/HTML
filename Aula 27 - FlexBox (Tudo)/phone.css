@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/*CONFIG CELULAR*/
+
+@media screen and (max-width: 533px) {
+
+    * {
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        background-color: lightgray;
+    }
+
+    main {
+        background-color: white;
+        box-shadow: 1px 1px 3px black;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    header {
+        background-color: gray;
+        border-radius: 0px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    header > h1 {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        font-size: 40px;
+        flex: auto;
+        margin-right: 15px;
+    }
+
+    header > menu {
+        text-align: center;
+    }
+    header > menu > p {
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 198px;
+        padding-right: 198px;
+        font-size: medium;
+        flex-shrink: 0;
+        flex-grow: 1;
+        
+    }
+
+    header > menu > p:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        transition-duration: 0.2s;
+    }
+
+    main > article {
+        padding: 10px;
+    }
+}
