@@ -3,8 +3,10 @@
 /*CONFIG GERAL*/
 
 * {
+    border-radius: 0px;
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -12,21 +14,34 @@ body {
 }
 
 main {
-    height: 100vh;
+
 }
 
-main > header {
-    background-color: antiquewhite;
-    padding: 5px;
-    height: 100px;
+header {
+    background-color: lightgray;
+    border-radius: 0px;
+    padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: end;
     flex-flow: row wrap;
 }
 
-main > header > menu {
+header > h1 {
+    flex: auto;
+    margin-right: 5px;
+}
+
+header > menu {
     display: flex;
-    flex: 1 1 150px;
+}
+
+header > menu > p {
+    background-color: gray;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    font-size: medium;
 }
 
 main > article {
