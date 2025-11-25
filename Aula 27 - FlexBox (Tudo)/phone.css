@@ -29,16 +29,13 @@
         padding: 10px;
         display: flex;
         align-items: center;
-        justify-content: end;
         flex-direction: column;
-        flex-wrap: wrap;
     }
 
     header > h1 {
         color: white;
         text-shadow: 1px 1px 1px black;
         font-size: 40px;
-        flex: auto;
         margin-right: 15px;
     }
 
@@ -54,7 +51,7 @@
         padding-bottom: 5px;
         padding-left: 198px;
         padding-right: 198px;
-        font-size: medium;
+        font-size: large;
         flex-shrink: 0;
         flex-grow: 1;
         
