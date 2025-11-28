@@ -47,14 +47,11 @@
         color: white;
         border-radius: 5px;
         margin-top: 5px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 198px;
-        padding-right: 198px;
+        padding: 5px;
+        width: 396px;
         font-size: large;
         flex-shrink: 0;
         flex-grow: 1;
-        
     }
 
     header > menu > p:hover {

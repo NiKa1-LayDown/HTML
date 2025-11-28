@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/*CONFIG GERAL*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    padding: 10px;
+}
+
+header > h1 {
+    padding-bottom: 10px;
+}
+
+header > p {
+    padding-top: 10px;
+}
+
+section {
+    background-color: lightgray;
+    padding:10px;
+}
+
+#sec1 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+}
+
+#sec1 > h2 {
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
+
+#sec1 > p {
+    flex-basis: 700px;
+    flex-shrink: 1;
+}
+
+#sec1 > img {
+    align-self: center;
+}
+
+section > h2 {
+    padding-bottom: 10px;
+}
+
+section > p {
+    padding-top: 10px;
+}
+
+section > img {
+    height: 350px;
+    
+}
+
+footer {
+    padding: 10px;
+}
+
+footer > h2 {
+    padding-bottom: 10px;
+}
+
+footer > p {
+    padding-top: 10px;
+}
