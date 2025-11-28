@@ -10,6 +10,7 @@
 
 body {
     height: 100vh;
+    text-align: justify;
 }
 
 header {
@@ -24,52 +25,56 @@ header > p {
     padding-top: 10px;
 }
 
-section {
+#secflex {
     background-color: lightgray;
-    padding:10px;
-}
-
-#sec1 {
     display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction: row;
+    flex-flow: column nowrap;
 }
 
-#sec1 > h2 {
-    flex-shrink: 0;
-    flex-basis: 300px;
+#mf {
+    display: flex;
+    flex-flow: row wrap-reverse;
 }
 
-#sec1 > p {
-    flex-basis: 700px;
-    flex-shrink: 1;
+#text {
+    padding: 10px;
+    flex: 1 1 267px;
 }
 
-#sec1 > img {
-    align-self: center;
+#mf > div > img {
+    padding: 10px;
+    height: 300px;
 }
 
-section > h2 {
-    padding-bottom: 10px;
+#tf {
+    display: flex;
+    flex-flow: row wrap;
 }
 
-section > p {
-    padding-top: 10px;
+#img {
+    display: block;
+    margin: auto;
 }
 
-section > img {
-    height: 350px;
-    
+#text2 {
+    padding: 10px;
+    flex: 1 1 313px;
 }
 
-footer {
+#media {
+    display: block;
+    margin: auto;
     padding: 10px;
 }
 
-footer > h2 {
+#secnor {
+    padding: 10px;
+}
+
+#secnor > h2 {
     padding-bottom: 10px;
 }
 
-footer > p {
+#secnor > p {
     padding-top: 10px;
 }
