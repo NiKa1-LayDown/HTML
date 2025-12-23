@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout na Prática</title>
+    <style>
+        div.container {
+            border: 3px solid blue;
+            display: grid;
+         /* grid-template-columns: auto auto auto;
+            grid-template-rows: 100px 100px 100px; */
+         /* grid-template: auto auto auto / auto auto auto; */
+            grid-template: repeat(3, 100px) / 1fr 4fr 1fr;
+            grid-auto-rows: 100px;
+            grid-auto-columns: 1fr;
+            grid-auto-flow: column; /* o padrão é adicionar itens em linha (row); para mudar isso basta usar esse comando com column*/
+            gap: 5px;
+            /* o valor padrão estica (stretch) (normal) */
+         /* align-items: normal;
+            justify-items: normal;
+            align-content: normal;
+            justify-content: normal; */
+            place-items: normal normal;
+            place-content: normal normal;
+        }
+
+        div.item {
+            border: 3PX solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <!-- usar div.item*n para multiplicar os itens mais rapidamente -->
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+    </div>
+</body>
+</html>
