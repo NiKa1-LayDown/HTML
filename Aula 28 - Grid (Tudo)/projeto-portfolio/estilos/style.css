@@ -63,6 +63,15 @@ body {
   color: var(--texto);
 }
 
+body.escuro {
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #ff5522;
+  --destaque-inverso: #a73917;
+  --fundo-card: #444444;
+}
+
 main {
   display: grid;
   grid-template-columns: auto 90vw auto;
@@ -262,7 +271,7 @@ footer a:hover {
 
 @media screen and (min-width: 768px) {
   main {
-    grid-template-columns: auto 300px 1fr auto;
+    grid-template-columns: 15px 300px 15px 1fr 15px;
   }
 
   section#ficha {
@@ -274,7 +283,7 @@ footer a:hover {
 
   section#detalhes {
     margin-top: 15px;
-    grid-column: 3/ 4;
+    grid-column: 4/ 5;
   }
   
   #skill-container {
