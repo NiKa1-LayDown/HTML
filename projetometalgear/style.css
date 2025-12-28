@@ -25,7 +25,7 @@ body {
     grid-template-columns: 10px 1fr 10px;
 }
 
-header {
+#introdução {
     color: var(--cor-texto);
     background-color: var(--cor-principal);
     text-align: justify;
@@ -33,28 +33,26 @@ header {
     border-radius: 8px;
 }
 
-#começo {
-    display: flex;
-    flex-direction: column;
-}
-
-#começo .barra {
+#introdução .barra {
     width: 100%;
     height: 3px;
     background-color: var(--cor-secundária);
 }
 
-#começo img {
-    padding: 10px;
-    width: 100%;
-}
-
-#começo h1 {
-    font-size: 2.9vw;
+#introdução h1 {
+    font-size: 4vw;
     padding: 10px;
 }
 
-header nav ul {
+nav {
+    background-color: var(--cor-principal);
+    grid-column: 2;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
     font-size: medium;
     font-weight: bold;
     font-variant: small-caps;
@@ -65,14 +63,14 @@ header nav ul {
 }
 
 
-header nav ul .link {
+nav ul .link {
     text-decoration: none;
     padding: 10px;
     color: var(--cor-texto);
     transition: background-color 0.2s, color 0.2s;
 }
 
-header nav ul .link:hover {
+nav ul .link:hover {
     
     color: var(--cor-secundária);
 }
@@ -83,9 +81,12 @@ header nav ul .link:hover {
     grid-column: 2;
     background-color: var(--cor-texto);
     color: var(--cor-principal);
+    display: flex;
+    flex-direction: column;
 }
 
 #home h2 {
+    font-weight: 900;
     text-align: center;
     padding: 10px;
 }
@@ -102,7 +103,5 @@ header nav ul .link:hover {
 }
 
 #home a img:hover {
-    height: 82px;
-    width: 101.5%;
-    margin-bottom: -2px;
+    margin-left: 8px;
 }
