@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron/Orbitron-Medium.ttf') format('truetype');
+}
+
+:root {
+    --fonte-principal: 'Orbitron', "Verdana";
+    --cor-principal: black;
+    --cor-secundária1: lightgray;
+    --cor-secundária2: rgb(248, 248, 248);
+}
+
+body {
+    background-color: var(--cor-secundária2);
+    font-family: var(--fonte-principal);
+    display: grid;
+    grid-template-columns: 10px 1fr 10px;
+}
+
+header {
+    background-color: var(--cor-secundária1);
+    text-align: justify;
+    grid-column: 2;
+    border-radius: 8px;
+}
+
+#começo {
+    display: flex;
+    flex-direction: column;
+}
+
+#começo img {
+    width: 100%;
+}
+
+#começo h1 {
+    font-size: 3.5vw;
+    padding: 10px;
+}
+
+header nav ul {
+    font-size: medium;
+    font-weight: bold;
+    font-variant: small-caps;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    list-style: none;
+}
+
+
+header nav ul .link {
+    text-decoration: none;
+    padding: 10px;
+    color: var(--cor-principal);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+header nav ul .link:hover {
+    
+    color: red;
+}
