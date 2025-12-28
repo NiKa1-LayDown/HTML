@@ -13,20 +13,21 @@
 
 :root {
     --fonte-principal: 'Orbitron', "Verdana";
+    --cor-texto: lightgray;
     --cor-principal: black;
-    --cor-secundária1: lightgray;
-    --cor-secundária2: rgb(248, 248, 248);
+    --cor-secundária: white;
 }
 
 body {
-    background-color: var(--cor-secundária2);
+    background-color: var(--cor-secundária1);
     font-family: var(--fonte-principal);
     display: grid;
     grid-template-columns: 10px 1fr 10px;
 }
 
 header {
-    background-color: var(--cor-secundária1);
+    color: var(--cor-texto);
+    background-color: var(--cor-principal);
     text-align: justify;
     grid-column: 2;
     border-radius: 8px;
@@ -37,12 +38,19 @@ header {
     flex-direction: column;
 }
 
+#começo .barra {
+    width: 100%;
+    height: 3px;
+    background-color: var(--cor-secundária);
+}
+
 #começo img {
+    padding: 10px;
     width: 100%;
 }
 
 #começo h1 {
-    font-size: 3.5vw;
+    font-size: 2.9vw;
     padding: 10px;
 }
 
@@ -51,7 +59,7 @@ header nav ul {
     font-weight: bold;
     font-variant: small-caps;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 5px;
     list-style: none;
 }
@@ -60,11 +68,41 @@ header nav ul {
 header nav ul .link {
     text-decoration: none;
     padding: 10px;
-    color: var(--cor-principal);
+    color: var(--cor-texto);
     transition: background-color 0.2s, color 0.2s;
 }
 
 header nav ul .link:hover {
     
-    color: red;
+    color: var(--cor-secundária);
+}
+
+#home {
+    margin-top: 10px;
+    border-radius: 8px;
+    grid-column: 2;
+    background-color: var(--cor-texto);
+    color: var(--cor-principal);
+}
+
+#home h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+#home h3 {
+    padding: 5px;
+}
+
+#home img {
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    transition: height 0.1s, width 0.1s, margin 0.1s;
+}
+
+#home a img:hover {
+    height: 82px;
+    width: 101.5%;
+    margin-bottom: -2px;
 }
