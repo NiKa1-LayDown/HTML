@@ -208,9 +208,10 @@ nav ul .link:hover {
 
 #imagem1 .imagem {
     box-shadow: inset 0px 6px 13px var(--cortextoprimario);
-    background-image: url(/projetometalgear/imagens/snakemeio.jpg);
+    background-image: url(../imagens/snakemeio.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 352.5%;
+    background-attachment: fixed;
     background-position: center center;
     height: 500px;
     grid-column: 2;
@@ -224,9 +225,10 @@ nav ul .link:hover {
 
 #imagem2 .imagem {
     box-shadow: inset 0px 4px 13px var(--cortextoprimario);
-    background-image: url(/projetometalgear/imagens/finalmetalgear3.jpg);
+    background-image: url(../imagens/finalmetalgear3.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 352.5%;
+    background-attachment: fixed;
     background-position: center center;
     height: 500px;
     grid-column: 2;
