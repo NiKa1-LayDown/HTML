@@ -35,7 +35,7 @@ nav {
 }
 
 nav ul {
-    font-size: medium;
+    font-size: 1.6em;
     font-weight: bold;
     font-variant: small-caps;
     display: flex;
@@ -46,7 +46,7 @@ nav ul {
 }
 
 i {
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 
 nav ul .link {

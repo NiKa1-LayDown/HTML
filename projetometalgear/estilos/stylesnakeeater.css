@@ -46,7 +46,7 @@ nav {
 }
 
 nav ul {
-    font-size: medium;
+    font-size: 1.6em;
     font-weight: bold;
     font-variant: small-caps;
     display: flex;
@@ -57,7 +57,7 @@ nav ul {
 }
 
 i {
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 
 nav ul .link {
@@ -132,17 +132,17 @@ nav ul .link:hover {
 
 #miudo {
     text-align: center;
-    font-size: 1.9vw;
+    font-size: 3vw;
     padding: 10px;
 }
 
 #miudo a {
     color: var(--cortextoprimario);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #miudo a:hover {
-    text-decoration: underline;
+    color: var(--cortextosecundario);
 }
 
 .barra {
@@ -212,7 +212,7 @@ nav ul .link:hover {
     background-repeat: no-repeat;
     background-size: 352.5%;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     height: 500px;
     grid-column: 2;
     margin-top: 10px;
@@ -229,7 +229,7 @@ nav ul .link:hover {
     background-repeat: no-repeat;
     background-size: 352.5%;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     height: 500px;
     grid-column: 2;
     margin-top: 10px;
