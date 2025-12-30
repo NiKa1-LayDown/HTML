@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('/projetometalgear/Orbitron/Orbitron-Medium.ttf') format('truetype');
+}
+
+:root {
+    --fontetexto: 'Orbitron', "Verdana";
+    --cortextoprimario: #132c05;
+    --cortextosecundario: #5e8844;
+    --corfundoprimario: white;
+    --corfundosecundario: #375B14;
+}
+
+body {
+    background-color: var(--cortextoprimario);
+    font-family: var(--fontetexto);
+    display: grid;
+    grid-template-columns: 10px 1fr 10px;
+}
+
+#cabeçalho {
+    grid-column: 1 / span 3;
+    margin-bottom: 10px;
+}
+
+#cabeçalho img {
+    height: 150px;
+    width: 100%;
+}
+
+#introdução {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: var(--corfundoprimario);
+    grid-column: 2;
+}
+
+#introdução h2 {
+    font-size: 1.3em;
+    text-align: center;
+    color: var(--cortextoprimario);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.sumário {
+    box-shadow: 0px 0px 2px var(--cortextoprimario);
+    color: var(--cortextoprimario);
+    margin: 2px;
+    transition: margin 0.2s;
+}
+
+.sumário:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.nomes {
+    height: 210px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: var(--cortextosecundario);
+}
+
+.nomes p {
+    text-align: center;
+    padding: 10px;
+}
+
+.nomes img {
+    border-radius: 8px;
+    height: 155px;
+    width: 195px;
+    display: block;
+    margin: auto;
+    margin-top: 1px;
+    transition: height 0.2s, width 0.2s;
+}
+
+.nomes img:hover {
+    height: 168px;
+    width: 208px;
+}
+
+#ultimop {
+    text-align: center;
+    font-size: 1.9vw;
+    padding: 10px;
+}
+
+.nomecentralizar {
+    height: 210px;
+}
+
+.nomecentralizar p {
+    color: var(--cortextosecundario);
+    text-align: center;
+    padding: 10px;
+}
+
+.nomecentralizar img {
+    border-radius: 8px;
+    height: 155px;
+    width: 195px;
+    display: block;
+    margin: auto;
+    transition: height 0.2s, width 0.2s;
+}
+
+.nomecentralizar img:hover {
+    height: 168px;
+    width: 208px;
+}
+
+#ultimop a {
+    color: var(--cortextoprimario);
+    text-decoration: none;
+}
+
+#ultimop a:hover {
+    text-decoration: underline;
+}
+
+#história {
+    grid-column: 2;
+    font-family: var(--fontetexto);
+    font-size: 0.8em;
+    background-color: white;
+}
+
+#história h1 {
+    padding: 5px;
+    color:  var(--cortextoprimario);
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+#história p {
+    padding: 5px;
+    text-align: justify;
+    color: var(--cortextoprimario);
+}
+
+#imagem1 {
+    margin-top: -10px;
+    grid-column: 1/ span 3;
+}
+
+#imagem1 .imagem {
+    box-shadow: inset 0px 6px 13px var(--cortextoprimario);
+    background-image: url(/projetometalgear/imagens/snakemeio.jpg);
+    background-repeat: no-repeat;
+    background-size: 352.6%;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 500px;
+    grid-column: 2;
+    margin-top: 10px;
+}
+
+#imagem2 {
+    margin-top: -10px;
+    grid-column: 1/ span 3;
+}
+
+#imagem2 .imagem {
+    box-shadow: inset 0px 4px 13px var(--cortextoprimario);
+    background-image: url(/projetometalgear/imagens/finalmetalgear3.jpg);
+    background-repeat: no-repeat;
+    background-size: 352.6%;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 500px;
+    grid-column: 2;
+    margin-top: 10px;
+}
+
+.sombra {
+    box-shadow: 0px -4px 13px;
+}
