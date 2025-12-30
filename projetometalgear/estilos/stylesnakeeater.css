@@ -28,12 +28,46 @@ body {
 
 #cabeçalho {
     grid-column: 1 / span 3;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 #cabeçalho img {
     height: 150px;
     width: 100%;
+}
+
+nav {
+    background-color: white;
+    grid-column: 1 / span 3;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 6px;
+}
+
+nav ul {
+    font-size: medium;
+    font-weight: bold;
+    font-variant: small-caps;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    padding: 5px;
+    list-style: none;
+}
+
+i {
+    font-size: 1.4em;
+}
+
+nav ul .link {
+    text-decoration: none;
+    color: var(--cortextoprimario);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+nav ul .link:hover {
+    color: var(--cortextosecundario);
 }
 
 #introdução {
@@ -46,14 +80,16 @@ body {
 #introdução h2 {
     font-size: 1.3em;
     text-align: center;
+    text-shadow: 1px 1px 0.5px var(--cortextosecundario);
     color: var(--cortextoprimario);
     padding: 5px;
     margin-bottom: 10px;
 }
 
 .sumário {
-    box-shadow: 0px 0px 2px var(--cortextoprimario);
     color: var(--cortextoprimario);
+    text-shadow: 1px 1px 1px var(--cortextosecundario);
+    box-shadow: 0px 0px 2px var(--cortextoprimario);
     margin: 2px;
     transition: margin 0.2s;
 }
@@ -65,13 +101,14 @@ body {
 }
 
 .nomes {
-    height: 210px;
+    height: 215px;
+    text-shadow: 1px 1px 1px var(--cortextoprimario);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    color: var(--cortextosecundario);
 }
 
 .nomes p {
+    color: var(--cortextosecundario);
     text-align: center;
     padding: 10px;
 }
@@ -80,25 +117,43 @@ body {
     border-radius: 8px;
     height: 155px;
     width: 195px;
+    box-shadow: 0px 0px 4px var(--cortextoprimario);
     display: block;
     margin: auto;
-    margin-top: 1px;
+    margin-top: 5px;
     transition: height 0.2s, width 0.2s;
 }
 
 .nomes img:hover {
     height: 168px;
     width: 208px;
+    cursor: pointer;
 }
 
-#ultimop {
+#miudo {
     text-align: center;
     font-size: 1.9vw;
     padding: 10px;
 }
 
+#miudo a {
+    color: var(--cortextoprimario);
+    text-decoration: none;
+}
+
+#miudo a:hover {
+    text-decoration: underline;
+}
+
+.barra {
+    height: 6px;
+    width: 100%;
+    background-color: var(--cortextoprimario);
+}
+
 .nomecentralizar {
-    height: 210px;
+    height: 215px;
+    text-shadow: 1px 1px 1px var(--cortextoprimario);
 }
 
 .nomecentralizar p {
@@ -111,23 +166,17 @@ body {
     border-radius: 8px;
     height: 155px;
     width: 195px;
+    box-shadow: 0px 0px 4px var(--cortextoprimario);
     display: block;
     margin: auto;
+    margin-top: 5px;
     transition: height 0.2s, width 0.2s;
 }
 
 .nomecentralizar img:hover {
     height: 168px;
     width: 208px;
-}
-
-#ultimop a {
-    color: var(--cortextoprimario);
-    text-decoration: none;
-}
-
-#ultimop a:hover {
-    text-decoration: underline;
+    cursor: pointer;
 }
 
 #história {
@@ -138,6 +187,7 @@ body {
 }
 
 #história h1 {
+    text-shadow: 1px 1px 0.5px var(--cortextosecundario);
     padding: 5px;
     color:  var(--cortextoprimario);
     font-size: 1.5em;
@@ -148,6 +198,7 @@ body {
     padding: 5px;
     text-align: justify;
     color: var(--cortextoprimario);
+    text-shadow: 0px 0px 1px var(--cortextosecundario);
 }
 
 #imagem1 {
@@ -186,4 +237,48 @@ body {
 
 .sombra {
     box-shadow: 0px -4px 13px;
+}
+
+#video {
+    background-color: white;
+    grid-column: 2;
+}
+
+#video p {
+    padding: 15px 5px;
+    text-align: justify;
+    color: var(--cortextoprimario);
+    text-shadow: 0px 0px 1px var(--cortextosecundario);
+}
+.video iframe {
+    border-top: solid 10px var(--cortextoprimario);
+    border-bottom: solid 10px var(--cortextoprimario);
+    width: 100%;
+    aspect-ratio: 16/9;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#rodapé {
+    background-color: white;
+    color: var(--cortextoprimario);
+    padding: 10px;
+    text-align: center;
+    grid-column: 1/ span 3;
+    margin-top: 10px;
+}
+
+#rodapé a {
+    text-decoration: none;
+    padding: 10px;
+    color: var(--cor-texto);
+    transition: color 0.2s;
+}
+
+#rodapé a:hover {
+    color: var(--cortextosecundario);
+}
+
+#rodapé a::after {
+    content: '🔗';
 }
