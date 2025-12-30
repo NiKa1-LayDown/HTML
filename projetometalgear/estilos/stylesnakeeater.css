@@ -208,7 +208,7 @@ nav ul .link:hover {
 
 #imagem1 .imagem {
     box-shadow: inset 0px 6px 13px var(--cortextoprimario);
-    background-image: url(../imagens/snakemeio.jpg);
+    background-image: url(../snakemeio.jpg);
     background-repeat: no-repeat;
     background-size: 352.5%;
     background-attachment: fixed;
@@ -225,7 +225,7 @@ nav ul .link:hover {
 
 #imagem2 .imagem {
     box-shadow: inset 0px 4px 13px var(--cortextoprimario);
-    background-image: url(../imagens/finalmetalgear3.jpg);
+    background-image: url(../finalmetalgear3.jpg);
     background-repeat: no-repeat;
     background-size: 352.5%;
     background-attachment: fixed;
