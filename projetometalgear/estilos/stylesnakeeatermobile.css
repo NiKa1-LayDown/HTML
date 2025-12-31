@@ -86,6 +86,28 @@ nav ul .link:hover {
     margin-bottom: 10px;
 }
 
+#história {
+    grid-column: 2;
+    font-family: var(--fontetexto);
+    font-size: 0.8em;
+    background-color: white;
+}
+
+#história h1 {
+    text-shadow: 1px 1px 0.5px var(--cortextosecundario);
+    padding: 5px;
+    color:  var(--cortextoprimario);
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+#história p {
+    padding: 5px;
+    text-align: justify;
+    color: var(--cortextoprimario);
+    text-shadow: 0px 0px 1px var(--cortextosecundario);
+}
+
 .sumário {
     color: var(--cortextoprimario);
     text-shadow: 1px 1px 1px var(--cortextosecundario);
@@ -131,7 +153,9 @@ nav ul .link:hover {
 }
 
 #miudo {
+    color: var(--cortextoprimario);
     text-align: center;
+    text-shadow: 1px 1px 1px var(--cortextosecundario);
     font-size: 3vw;
     padding: 10px;
 }
@@ -179,28 +203,6 @@ nav ul .link:hover {
     cursor: pointer;
 }
 
-#história {
-    grid-column: 2;
-    font-family: var(--fontetexto);
-    font-size: 0.8em;
-    background-color: white;
-}
-
-#história h1 {
-    text-shadow: 1px 1px 0.5px var(--cortextosecundario);
-    padding: 5px;
-    color:  var(--cortextoprimario);
-    font-size: 1.5em;
-    text-decoration: underline;
-}
-
-#história p {
-    padding: 5px;
-    text-align: justify;
-    color: var(--cortextoprimario);
-    text-shadow: 0px 0px 1px var(--cortextosecundario);
-}
-
 #imagem1 {
     margin-top: -10px;
     grid-column: 1/ span 3;
@@ -244,15 +246,11 @@ nav ul .link:hover {
     grid-column: 2;
 }
 
-#video p {
-    padding: 15px 5px;
-    text-align: justify;
-    color: var(--cortextoprimario);
-    text-shadow: 0px 0px 1px var(--cortextosecundario);
-}
+
 .video iframe {
     border-top: solid 10px var(--cortextoprimario);
     border-bottom: solid 10px var(--cortextoprimario);
+    height: auto;
     width: 100%;
     aspect-ratio: 16/9;
     padding-right: 5px;
