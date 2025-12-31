@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Orbitron';
-    src: url('/projetometalgear/Orbitron/Orbitron-Medium.ttf') format('truetype');
+    src: url(../Orbitron-Medium.ttf) format('truetype');
 }
 
 :root {
