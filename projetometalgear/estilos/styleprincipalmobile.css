@@ -46,7 +46,7 @@ nav ul {
 }
 
 nav ul .link {
-    font-size: 6vw;
+    font-size: 7vw;
     text-decoration: none;
     color: var(--cor-fundoprincipal);
     transition: color 0.2s;
