@@ -13,21 +13,23 @@
 
 :root {
     --fonte-principal: 'Orbitron', "Verdana";
-    --cor-texto: white;
+    --cor-texto: black;
     --cor-texto2: rgb(97, 97, 97);
-    --cor-fundoprincipal: black;
+    --cor-fundoprincipal: white;
     --cor-fundosecundária: lightgray;
 }
 
 body {
-    background-color: var(--cor-fundosecundária);
+    background-color: var(--cor-fundoprincipal);
     font-family: var(--fonte-principal);
     display: grid;
     grid-template-columns: 10px 1fr 10px;
 }
 
 nav {
-    background-color: var(--cor-texto);
+    border-top: 1px solid var(--cor-texto);
+    box-shadow: 0px 0px 5px var(--cor-texto);
+    background-color: var(--cor-fundoprincipal);
     grid-column: 1 / span 3;
     position: sticky;
     top: 0;
@@ -47,9 +49,10 @@ nav ul {
 }
 
 nav ul .link {
+    text-shadow: 0.5px 0.5px 0.5px var(--cor-texto);
     font-size: 7vw;
     text-decoration: none;
-    color: var(--cor-fundoprincipal);
+    color: var(--cor-texto);
     transition: color 0.2s;
 }
 
@@ -69,11 +72,14 @@ nav ul .link:hover {
 }
 
 #titulo h2 {
-    border-left: 3px solid var(--cor-fundoprincipal);
-    border-right: 3px solid var(--cor-fundoprincipal);
+    box-shadow: 0px 0px 5px black;
+    text-shadow: 2px 2px 1px darkgray;
+    background-color: var(--cor-fundoprincipal);
+    border-radius: 15px
 }
 
 #home {
+    box-shadow: 0px 0px  5px black;
     padding-bottom: 10px;
     margin-top: 10px;
     border-radius: 8px;
@@ -89,6 +95,7 @@ nav ul .link:hover {
 }
 
 #home details summary {
+    text-shadow: 0px 0px 1px var(--cor-texto);
     font-size: 3vw;
     font-weight: bold;
     margin-top: 15px;
@@ -102,6 +109,7 @@ nav ul .link:hover {
 }
 
 #home details p {
+    text-shadow: 0px 0px 1px var(--cor-texto);
     font-size: 2.9vw;
     text-indent: 20px;
     padding-left: 5px;
@@ -110,6 +118,7 @@ nav ul .link:hover {
 }
 
 #home img {
+    box-shadow: 0px 0px 5px;
     margin-top: 5px;
     height: 22vw;
     width: 100%;
@@ -122,8 +131,8 @@ nav ul .link:hover {
 }
 
 #rodapé {
-    background-color: var(--cor-fundoprincipal);
-    color: var(--cor-texto);
+    background-color: var(--cor-texto);
+    color: var(--cor-fundoprincipal);
     font-size: 2.5vw;
     padding: 2.5vw;
     text-align: center;
@@ -134,7 +143,7 @@ nav ul .link:hover {
 #rodapé a {
     text-decoration: none;
     padding: 10px;
-    color: var(--cor-texto);
+    color: var(--cor-fundoprincipal);
     transition: color 0.2s;
 }
 
