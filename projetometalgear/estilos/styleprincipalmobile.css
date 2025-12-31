@@ -63,6 +63,14 @@ nav ul .link:hover {
     font-weight: 900;
     text-align: center;
     padding-top: 10px;
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+#titulo h2 {
+    border-left: 3px solid var(--cor-fundoprincipal);
+    border-right: 3px solid var(--cor-fundoprincipal);
 }
 
 #home {
