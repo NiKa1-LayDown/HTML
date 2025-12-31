@@ -20,7 +20,7 @@
 }
 
 body {
-    background-color: var(--cor-texto);
+    background-color: var(--cor-fundosecundária);
     font-family: var(--fonte-principal);
     display: grid;
     grid-template-columns: 10px 1fr 10px;
