@@ -57,22 +57,23 @@ nav ul .link:hover {
     color: var(--cor-texto2);
 }
 
-#home {
-    margin-top: 10px;
-    border-radius: 8px;
+#titulo {
     grid-column: 2;
-    background-color: var(--cor-fundoprincipal);
-    color: var(--cor-texto);
-    display: flex;
-    flex-direction: column;
-}
-
-#home h2 {
     font-size: 4.2vw;
     font-weight: 900;
     text-align: center;
     padding-top: 10px;
 }
+
+#home {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    grid-column: 2;
+    background-color: var(--cor-fundoprincipal);
+    color: var(--cor-texto);
+}
+
 #home details {
     display: flex;
     flex-direction: column;

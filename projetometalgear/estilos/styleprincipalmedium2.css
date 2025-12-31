@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    :root {
+        --fonte-principal: 'Orbitron', "Verdana";
+        --cor-texto: white;
+        --cor-texto2: rgb(97, 97, 97);
+        --cor-fundoprincipal: black;
+        --cor-fundosecundária: lightgray;
+    }
+    body {
+        grid-template-columns: 10px 1fr 1fr 10px;
+    }
+
+    nav {
+        grid-column: 1 / span 4;
+    }
+
+    #titulo {
+        grid-column: 2 / 4;
+        font-size: 1.3em;
+        display: block;
+        margin: auto;
+        width: fit-content;
+    }
+
+    #titulo h2 {
+        border-left: 3px solid var(--cor-fundoprincipal);
+        border-right: 3px solid var(--cor-fundoprincipal);
+    }
+
+    #home {
+        margin-top: 10px;
+        border-radius: 8px;
+        grid-column: 2 / 4;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .jogos2 {
+        margin-top: 100px;
+    }
+
+    #home details {
+        align-items: start;
+    }
+
+    #home details summary {
+        font-size: 1.7vw;
+        font-weight: bold;
+        margin-top: 15px;
+        width: fit-content;
+        margin-right: 5px;
+    }
+
+    #home details p {
+        font-size: 1.5vw;
+        width: 42vw;
+    }
+
+    #home img {
+        margin-top: 5px;
+        height: 13vw;
+        width: 42vw;
+        border-radius: 10px;
+    }
+
+    #home a img:hover {
+        outline: 2px solid var(--cor-texto);
+        margin-left: 0px;
+    }
+
+    #rodapé {
+        background-color: var(--cor-fundoprincipal);
+        color: var(--cor-texto);
+        font-size: 14px;
+        padding: 14px;
+        text-align: center;
+        grid-column: 1/ span 4;
+        margin-top: 10px;
+    }
+}

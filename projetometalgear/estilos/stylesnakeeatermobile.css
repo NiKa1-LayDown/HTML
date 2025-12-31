@@ -90,7 +90,7 @@ nav ul .link:hover {
 #história {
     grid-column: 2;
     font-family: var(--fontetexto);
-    font-size: 0.8em;
+    font-size: 0.9em;
     background-color: white;
 }
 
