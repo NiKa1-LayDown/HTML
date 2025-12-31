@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 540px) and (max-width: 800px) {
+@media screen and (min-width: 540px) and (max-width: 900px) {
     nav ul .link {
     font-size: 1.5em;
     }
