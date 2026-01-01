@@ -48,6 +48,33 @@ nav ul {
     border-top: solid 3px var(--cor-fundoprincipal);
 }
 
+nav ul  .escondido {
+    display: none;
+    text-shadow: 0.5px 0.5px 0.5px var(--cor-texto);
+    font-size: 7vw;
+    text-decoration: none;
+    color: var(--cor-texto);
+    transition: color 0.2s;
+}
+
+nav ul .escondido:hover {
+    color: var(--cor-texto2);
+}
+
+nav ul  .escondido2 {
+    display: none;
+    text-shadow: 0.5px 0.5px 0.5px var(--cor-texto);
+    font-size: 7vw;
+    text-decoration: none;
+    color: var(--cor-texto);
+    transition: color 0.2s;
+}
+
+nav ul .escondido2:hover {
+    color: var(--cor-texto2);
+}
+
+
 nav ul .link {
     text-shadow: 0.5px 0.5px 0.5px var(--cor-texto);
     font-size: 7vw;
@@ -57,6 +84,18 @@ nav ul .link {
 }
 
 nav ul .link:hover {
+    color: var(--cor-texto2);
+}
+
+nav ul .link2 {
+    text-shadow: 0.5px 0.5px 0.5px var(--cor-texto);
+    font-size: 7vw;
+    text-decoration: none;
+    color: var(--cor-texto);
+    transition: color 0.2s;
+}
+
+nav ul .link2:hover {
     color: var(--cor-texto2);
 }
 

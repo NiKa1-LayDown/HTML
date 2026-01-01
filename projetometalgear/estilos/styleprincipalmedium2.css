@@ -18,6 +18,22 @@
         grid-column: 1 / span 4;
     }
 
+    nav ul .escondido {
+        display: block;
+        font-size: 1.5em;
+        margin-left: 100px;
+    }
+
+    nav ul .escondido2 {
+        display: block;
+        font-size: 1.5em;
+        margin-right: 100px;
+    }
+
+    nav ul .link2 {
+        display: none;
+    }
+
     #titulo {
         grid-column: 2 / 4;
         font-size: 1.3em;
