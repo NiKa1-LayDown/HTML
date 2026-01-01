@@ -28,7 +28,6 @@ body {
 
 #cabeçalho {
     grid-column: 1 / span 3;
-    margin-bottom: 2px;
 }
 
 #cabeçalho img {
@@ -42,8 +41,10 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1;
+    margin-top: -10px;
     margin-bottom: 6px;
-    border: 3px solid var(--cortextoprimario);
+    border-top: 1px solid var(--cortextoprimario);
+    box-shadow: 0px 0px 5px var(--cortextoprimario);
 }
 
 nav ul {
@@ -59,6 +60,28 @@ nav ul {
 
 i {
     font-size: 1.6em;
+}
+
+nav ul .escondido {
+    display: none;
+    text-decoration: none;
+    color: var(--cortextoprimario);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+nav ul .escondido:hover {
+    color: var(--cortextosecundario);
+}
+
+nav ul .link2 {
+    margin-left: 14.9vw;
+    text-decoration: none;
+    color: var(--cortextoprimario);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+nav ul .link2:hover {
+    color: var(--cortextosecundario);
 }
 
 nav ul .link {
@@ -131,6 +154,7 @@ nav ul .link:hover {
 }
 
 .nomes p {
+    font-size: 0.8em;
     color: var(--cortextosecundario);
     text-align: center;
     padding: 10px;
@@ -182,6 +206,7 @@ nav ul .link:hover {
 }
 
 .nomecentralizar p {
+    font-size: 0.8em;
     color: var(--cortextosecundario);
     text-align: center;
     padding: 10px;
@@ -206,7 +231,7 @@ nav ul .link:hover {
 
 #imagem1 {
     margin-top: -10px;
-    grid-column: 1/ span 3;
+    grid-column: 1 / span 3;
 }
 
 #imagem1 .imagem {
@@ -217,13 +242,12 @@ nav ul .link:hover {
     background-attachment: fixed;
     background-position: top center;
     height: 500px;
-    grid-column: 2;
     margin-top: 10px;
 }
 
 #imagem2 {
     margin-top: -10px;
-    grid-column: 1/ span 3;
+    grid-column: 1 / span 3;
 }
 
 #imagem2 .imagem {
@@ -234,7 +258,6 @@ nav ul .link:hover {
     background-attachment: fixed;
     background-position: top center;
     height: 500px;
-    grid-column: 2;
     margin-top: 10px;
 }
 
@@ -249,13 +272,12 @@ nav ul .link:hover {
 
 
 .video iframe {
-    border-top: solid 10px var(--cortextoprimario);
-    border-bottom: solid 10px var(--cortextoprimario);
     height: auto;
     width: 100%;
     aspect-ratio: 16/9;
     padding-right: 5px;
     padding-left: 5px;
+    margin-bottom: 10px;
 }
 
 #rodapé {

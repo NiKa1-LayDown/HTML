@@ -44,8 +44,6 @@ nav ul {
     gap: 5px;
     padding: 5px;
     list-style: none;
-    border-bottom: solid 3px var(--cor-fundoprincipal);
-    border-top: solid 3px var(--cor-fundoprincipal);
 }
 
 nav ul  .escondido {

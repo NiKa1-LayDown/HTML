@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 599px) {
+@media screen and (min-width: 600px) {
     #cabeçalho img {
         height: 27vw;
         margin-bottom: 4px;
@@ -13,6 +13,16 @@
     nav ul {
         font-size: 1.2em;
     }
+
+    nav ul .escondido {
+        display: block;
+        margin-right: 14vw;
+        font-size: 1.4em;
+    }
+
+    nav ul .link2 {
+        display: none;
+    }   
 
     #introdução {
         border-top-right-radius: 20px;
@@ -41,7 +51,7 @@
         margin: 5px;
     }
 
-.sumário:hover {
+    .sumário:hover {
         margin-left: 25px;
     }
 
@@ -56,7 +66,6 @@
     .nomes img {
         height: 28vw;
         width: 33vw;
-    
     }
 
     .nomes img:hover {
@@ -64,14 +73,6 @@
         width: 35vw;
     }
 
-    #miudo {
-        font-size: 2.2vw;
-        padding: 10px;
-    }
-
-    .barra {
-        height: 10px;
-    }
 
     .nomecentralizar {
         height: 39vw;
@@ -91,6 +92,15 @@
         width: 35vw;
     }
 
+    #miudo {
+        font-size: 2.2vw;
+        padding: 10px;
+    }
+
+    .barra {
+        height: 10px;
+    }
+
     #imagem1 .imagem {
         background-size: 250%;
     }
@@ -106,18 +116,7 @@
     }
 
     .video iframe {
-        border-top: solid 10px var(--cortextoprimario);
-        border-bottom: solid 10px var(--cortextoprimario);
-        height: auto;
-        width: 100%;
-        aspect-ratio: 16/9;
         padding-right: 10px;
         padding-left: 10px;
-    }
-
-    #rodapé {
-        font-size: 2.7vw;
-        padding: 20px;
-        margin-top: 20px;
     }
 }

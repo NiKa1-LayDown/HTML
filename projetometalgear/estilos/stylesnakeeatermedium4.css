@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 850px) {
+    #cabeçalho img {
+        display: none;
+    }
+
+    nav {
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+    
+    body {
+        grid-template-columns:  65px 1fr 65px;
+    }
+}

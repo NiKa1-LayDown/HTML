@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    #cabeçalho img {
+        height: 207px;
+        width: 100%;
+    }
+    body {
+    grid-template-columns: 27px 1fr 27px;
+    }
+
+    #introdução h2 {
+        font-size: 1.6em;
+    }
+
+    #história {
+        font-size: 1em;
+    }
+
+    .sumário {
+        font-size: 1.1em;
+    }
+
+    .nome {
+        height: 300px;
+    }
+
+    .nomes p {
+        font-size: 0.95em;
+    }
+
+    .nomes img {
+        height: 220px;
+        width: 250px;
+    }
+
+    .nomes img:hover {
+        height: 230px;
+        width: 260px;
+    }
+
+    .nomecentralizar {
+        height: 300px;
+    }
+
+    .nomecentralizar p {
+        font-size: 0.95em;
+    }
+
+    .nomecentralizar img {
+        height: 220px;
+        width: 250px;
+    }
+
+    .nomecentralizar img:hover {
+        height: 230px;
+        width: 260px;
+    }
+
+    #miudo {
+        font-size: 1em;
+    }
+
+    #imagem1 {
+        grid-column: 2;
+    }
+
+    #imagem2 {
+        grid-column: 2;
+    }
+
+    .video iframe {
+        width: 700px;
+        display: block;
+        margin: auto;
+        padding: 15px;
+    }
+}
