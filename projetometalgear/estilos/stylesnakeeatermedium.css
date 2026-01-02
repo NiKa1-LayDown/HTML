@@ -1,122 +1,78 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     #cabeçalho img {
-        height: 27vw;
-        margin-bottom: 4px;
+        height: 207px;
+        width: 100%;
     }
-
-    nav {
-        margin-bottom: 10px;
-    }
-
-    nav ul {
-        font-size: 1.2em;
-    }
-
-    nav ul .escondido {
-        display: block;
-        margin-right: 14vw;
-        font-size: 1.4em;
-    }
-
-    nav ul .link2 {
-        display: none;
-    }   
-
-    #introdução {
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
+    body {
+        grid-template-columns: 27px 1fr 27px;
     }
 
     #introdução h2 {
-        font-size: 3.4vw;
+        font-size: 1.6em;
     }
 
     #história {
-        font-size: 2.2vw;
-    }
-
-    #história h1 {
-        font-size: 1.5em;
-        padding: 10px;
-    }
-
-    #história p {
-        padding: 10px;
+        font-size: 1em;
     }
 
     .sumário {
-        font-size: 2.4vw;
-        margin: 5px;
+        font-size: 1.1em;
     }
 
-    .sumário:hover {
-        margin-left: 25px;
-    }
-
-    .nomes {
-        height: 39vw;
+    .nome {
+        height: 300px;
     }
 
     .nomes p {
-        padding: 20px;
+        font-size: 0.95em;
     }
 
     .nomes img {
-        height: 28vw;
-        width: 33vw;
+        height: 220px;
+        width: 250px;
     }
 
     .nomes img:hover {
-        height: 30vw;
-        width: 35vw;
+        height: 230px;
+        width: 260px;
     }
 
-
     .nomecentralizar {
-        height: 39vw;
+        height: 300px;
     }
 
     .nomecentralizar p {
-        padding: 20px;
+        font-size: 0.95em;
     }
 
     .nomecentralizar img {
-        height: 28vw;
-        width: 33vw;
-    }   
+        height: 220px;
+        width: 250px;
+    }
 
     .nomecentralizar img:hover {
-        height: 30vw;
-        width: 35vw;
+        height: 230px;
+        width: 260px;
     }
 
     #miudo {
-        font-size: 2.2vw;
-        padding: 10px;
+        font-size: 1em;
     }
 
-    .barra {
-        height: 10px;
-    }
-
-    #imagem1 .imagem {
-        background-size: 250%;
+    #imagem1 {
+        grid-column: 2;
     }
 
     #imagem2 {
-        margin-top: -10px;
-        grid-column: 1/ span 3;
-    }
-
-    #imagem2 .imagem {
-        background-size: 335%;
-    
+        grid-column: 2;
     }
 
     .video iframe {
-        padding-right: 10px;
-        padding-left: 10px;
+        width: 700px;
+        display: block;
+        margin: auto;
+        padding: 15px;
     }
 }

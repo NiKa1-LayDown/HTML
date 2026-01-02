@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+    nav ul .link {
+        font-size: 1.5em;
+    }
+
+    nav ul .link2 {
+    font-size: 1.5em;
+    }
+
+    #titulo {
+        grid-column: 2;
+        font-size: 1.3em;
+    }
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1050px) {
+    body {
+        grid-template-columns:  128px 1fr 128px;
+    }
+
+    .video iframe {
+        height: auto;
+        width: 780px;
+        aspect-ratio: 16/9;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-bottom: 10px;
+    }
+}

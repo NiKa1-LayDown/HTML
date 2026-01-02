@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1450px) {
+    #home {
+        margin-top: 52.5px;
+    }
+
+    #home details summary {
+        font-size: 1.1em;
+        margin-top: 25px;
+        width: fit-content;
+        margin-right: 5px;
+    }
+
+    #home details p {
+        font-size: 1em;
+        width: 455px;
+    }
+
+    #home img {
+        height: 125px;
+        width: 455px;
+    }
+
+    #rodapé {
+    margin-top:52.5px;
+}
+}

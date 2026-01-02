@@ -97,24 +97,6 @@ nav ul .link2:hover {
     color: var(--cor-texto2);
 }
 
-#titulo {
-    grid-column: 2;
-    font-size: 4.2vw;
-    font-weight: 900;
-    text-align: center;
-    padding-top: 10px;
-    display: block;
-    margin: auto;
-    width: fit-content;
-}
-
-#titulo h2 {
-    box-shadow: 0px 0px 5px black;
-    text-shadow: 2px 2px 1px darkgray;
-    background-color: var(--cor-fundoprincipal);
-    border-radius: 15px
-}
-
 #home {
     box-shadow: 0px 0px  5px black;
     padding-bottom: 10px;
