@@ -23,25 +23,12 @@
         display: none;
     }   
 
-    #introdução {
+    .intro {
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
     }
 
-    #introdução h2 {
-        font-size: 3.4vw;
-    }
-
-    #história {
-        font-size: 2.2vw;
-    }
-
-    #história h1 {
-        font-size: 1.5em;
-        padding: 10px;
-    }
-
-    #história p {
+    .intro p {
         padding: 10px;
     }
 
@@ -73,20 +60,39 @@
     }
 
 
-    .nomecentralizar {
+    .nomesprimeiro {
         height: 39vw;
     }
 
-    .nomecentralizar p {
+    .nomesprimeiro p {
         padding: 20px;
     }
 
-    .nomecentralizar img {
+    .nomesprimeiro img {
         height: 28vw;
         width: 33vw;
     }   
 
-    .nomecentralizar img:hover {
+    .nomesprimeiro img:hover {
+        height: 30vw;
+        width: 35vw;
+    }
+
+    .nomesúltimo {
+        height: 35vw;
+        margin-bottom: -7px;
+    }
+
+    .nomesúltimo p {
+        padding: 20px;
+    }
+
+    .nomesúltimo img {
+        height: 28vw;
+        width: 33vw;
+    }   
+
+    .nomesúltimo img:hover {
         height: 30vw;
         width: 35vw;
     }
@@ -96,8 +102,30 @@
         padding: 10px;
     }
 
-    .barra {
-        height: 10px;
+    .históriaprimeiro {
+        font-size: 2.2vw;
+    }
+
+    .históriaprimeiro h1 {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
+    .históriaprimeiro p {
+        padding: 10px;
+    }
+
+    .história {
+        font-size: 2.2vw;
+    }
+
+    .história h1 {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
+    .história p {
+        padding: 10px;
     }
 
     #imagem1 .imagem {
@@ -112,6 +140,11 @@
     #imagem2 .imagem {
         background-size: 335%;
     
+    }
+
+    #video {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
     }
 
     .video iframe {

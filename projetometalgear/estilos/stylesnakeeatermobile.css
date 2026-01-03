@@ -73,6 +73,16 @@ nav ul .escondido:hover {
     color: var(--cortextosecundario);
 }
 
+nav ul .link {
+    text-decoration: none;
+    color: var(--cortextoprimario);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+nav ul .link:hover {
+    color: var(--cortextosecundario);
+}
+
 nav ul .link2 {
     margin-left: 14.9vw;
     text-decoration: none;
@@ -84,58 +94,52 @@ nav ul .link2:hover {
     color: var(--cortextosecundario);
 }
 
-nav ul .link {
-    text-decoration: none;
-    color: var(--cortextoprimario);
-    transition: background-color 0.2s, color 0.2s;
-}
-
-nav ul .link:hover {
-    color: var(--cortextosecundario);
-}
-
-#introdução {
+.intro {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     background-color: var(--corfundoprimario);
     grid-column: 2;
 }
 
-#introdução h2 {
-    font-size: 1.3em;
+.intro h1 {
+    font-size: 1.5em;
     text-align: center;
     text-shadow: 1px 1px 0.5px var(--cortextosecundario);
+    text-decoration: underline;
     color: var(--cortextoprimario);
     padding: 5px;
     margin-bottom: 10px;
 }
 
-#história {
-    grid-column: 2;
-    font-family: var(--fontetexto);
+.intro p {
     font-size: 0.9em;
-    background-color: white;
-}
-
-#história h1 {
-    text-shadow: 1px 1px 0.5px var(--cortextosecundario);
-    padding: 5px;
-    color:  var(--cortextoprimario);
-    font-size: 1.5em;
-    text-decoration: underline;
-}
-
-#história p {
     padding: 5px;
     text-align: justify;
     color: var(--cortextoprimario);
     text-shadow: 0px 0px 1px var(--cortextosecundario);
 }
 
+.intro2 {
+    background-color: white;
+    grid-column: 2;
+}
+#h1intro2 {
+    display: none;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 1px 1px 0.5px var(--cortextosecundario);
+    text-decoration: underline;
+    color: var(--cortextoprimario);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
 .sumário {
+    background-color: white;
     color: var(--cortextoprimario);
     text-shadow: 1px 1px 1px var(--cortextosecundario);
     box-shadow: 0px 0px 2px var(--cortextoprimario);
+    grid-column: 2;
     margin: 2px;
     transition: margin 0.2s;
 }
@@ -147,7 +151,7 @@ nav ul .link:hover {
 }
 
 .nomes {
-    height: 215px;
+    height: 170px;
     text-shadow: 1px 1px 1px var(--cortextoprimario);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -177,12 +181,76 @@ nav ul .link:hover {
     cursor: pointer;
 }
 
+.nomesprimeiro {
+    height: 170px;
+    text-shadow: 1px 1px 1px var(--cortextoprimario);
+}
+
+.nomesprimeiro p {
+    font-size: 0.8em;
+    color: var(--cortextosecundario);
+    text-align: center;
+    padding: 10px;
+}
+
+.nomesprimeiro img {
+    border-radius: 8px;
+    height: 115px;
+    width: 155px;
+    box-shadow: 0px 0px 4px var(--cortextoprimario);
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    transition: height 0.2s, width 0.2s;
+}
+
+.nomesprimeiro img:hover {
+    height: 128px;
+    width: 168px;
+    cursor: pointer;
+}
+
+.nomesúltimo {
+    height: 170px;
+    text-shadow: 1px 1px 1px var(--cortextoprimario);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: -25px;
+}
+
+.nomesúltimo p {
+    font-size: 0.8em;
+    color: var(--cortextosecundario);
+    text-align: center;
+    padding: 10px;
+}
+
+.nomesúltimo img {
+    border-radius: 8px;
+    height: 115px;
+    width: 155px;
+    box-shadow: 0px 0px 4px var(--cortextoprimario);
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    transition: height 0.2s, width 0.2s;
+}
+
+.nomesúltimo img:hover {
+    height: 128px;
+    width: 168px;
+    cursor: pointer;
+}
+
 #miudo {
+    border-bottom: 6px solid var(--cortextoprimario);
+    background-color: white;
     color: var(--cortextoprimario);
     text-align: center;
     text-shadow: 1px 1px 1px var(--cortextosecundario);
     font-size: 3vw;
-    padding: 10px;
+    padding-bottom: 20px;
+    grid-column: 2;
 }
 
 #miudo a {
@@ -194,39 +262,27 @@ nav ul .link:hover {
     color: var(--cortextosecundario);
 }
 
-.barra {
-    height: 6px;
-    width: 100%;
-    background-color: var(--cortextoprimario);
+.história {
+    grid-column: 2;
+    font-family: var(--fontetexto);
+    font-size: 0.9em;
+    background-color: white;
 }
 
-.nomecentralizar {
-    height: 215px;
-    text-shadow: 1px 1px 1px var(--cortextoprimario);
+.história h1 {
+    text-shadow: 1px 1px 0.5px var(--cortextosecundario);
+    padding: 5px;
+    color:  var(--cortextoprimario);
+    font-size: 1.5em;
+    text-decoration: underline;
 }
 
-.nomecentralizar p {
-    font-size: 0.8em;
-    color: var(--cortextosecundario);
-    text-align: center;
-    padding: 10px;
-}
-
-.nomecentralizar img {
-    border-radius: 8px;
-    height: 115px;
-    width: 155px;
-    box-shadow: 0px 0px 4px var(--cortextoprimario);
-    display: block;
-    margin: auto;
-    margin-top: 5px;
-    transition: height 0.2s, width 0.2s;
-}
-
-.nomecentralizar img:hover {
-    height: 128px;
-    width: 168px;
-    cursor: pointer;
+.história p {
+    font-size: 0.9em;
+    padding: 5px;
+    text-align: justify;
+    color: var(--cortextoprimario);
+    text-shadow: 0px 0px 1px var(--cortextosecundario);
 }
 
 #imagem1 {
@@ -268,8 +324,9 @@ nav ul .link:hover {
 #video {
     background-color: white;
     grid-column: 2;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
-
 
 .video iframe {
     height: auto;

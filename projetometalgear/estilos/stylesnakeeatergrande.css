@@ -5,6 +5,11 @@
         grid-template-columns:  128px 1fr 128px;
     }
 
+    #miudo {
+        font-size: 1em;
+        padding-bottom: 20px;
+    }
+
     .video iframe {
         height: auto;
         width: 780px;

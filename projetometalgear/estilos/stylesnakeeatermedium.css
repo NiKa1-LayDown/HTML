@@ -9,11 +9,11 @@
         grid-template-columns: 27px 1fr 27px;
     }
 
-    #introdução h2 {
+    .intro h1 {
         font-size: 1.6em;
     }
 
-    #história {
+    .intro {
         font-size: 1em;
     }
 
@@ -21,8 +21,26 @@
         font-size: 1.1em;
     }
 
-    .nome {
-        height: 300px;
+    .nomesprimeiro {
+        height: 270px;
+    }
+
+    .nomesprimeiro p {
+        font-size: 0.95em;
+    }
+
+    .nomesprimeiro img {
+        height: 220px;
+        width: 250px;
+    }
+
+    .nomesprimeiro img:hover {
+        height: 230px;
+        width: 260px;
+    }
+
+    .nomes {
+        height: 280px;
     }
 
     .nomes p {
@@ -39,25 +57,35 @@
         width: 260px;
     }
 
-    .nomecentralizar {
-        height: 300px;
+    .nomesúltimo {
+        height: 270px;
+        margin-bottom: -13px;
     }
 
-    .nomecentralizar p {
+    .nomesúltimo p {
         font-size: 0.95em;
     }
 
-    .nomecentralizar img {
+    .nomesúltimo img {
         height: 220px;
         width: 250px;
     }
 
-    .nomecentralizar img:hover {
+    .nomesúltimo img:hover {
         height: 230px;
         width: 260px;
     }
 
     #miudo {
+        font-size: 1.1em;
+        padding-bottom: 10px;
+    }
+
+    .históriaprimeiro {
+        font-size: 1em;
+    }
+
+    .história {
         font-size: 1em;
     }
 

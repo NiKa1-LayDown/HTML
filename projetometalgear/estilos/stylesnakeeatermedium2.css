@@ -5,4 +5,16 @@
         margin-right: 15vw;
         font-size: 1.4em;
     }
+
+    .nome {
+        height: 280px;
+    }
+
+    .nomesprimeiro {
+        height: 290px;
+    }
+
+    .nomesúltimo {
+        height: 270px;
+    }
 }
