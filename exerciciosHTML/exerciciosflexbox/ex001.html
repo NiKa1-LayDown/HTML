@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            padding: 10px;
+        }
+
+        .container {
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.329);
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            border-radius: 4px;
+           
+        }
+
+        .boxes {
+            opacity: 0.5;
+            padding-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .container2 {
+            display: flex;
+        }
+
+        .foto img {
+            border-radius: 30px;
+            object-fit: cover;
+            object-position: 0px 0px;
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        .texto {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .título p {
+            font-weight: 700;
+            line-height: 20px;
+            width: 195px;
+        }
+
+        .horário {
+            padding-left: 80px;
+            opacity: 0.3;
+            font-weight: 600;
+        }
+
+        .descrição {
+            opacity: 0.4;
+            padding-left: 60px;
+            margin-top: -17px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <p class="boxes">ALL INBOXES</p>
+        </div>
+        <div class="container2">
+            <div class="foto">
+                <img src="jerebatma.jpeg" alt="">
+            </div>
+            <div class="texto">
+                <div class="título">
+                    <p>Chewy Promotions Biggest sales of the year!</p>
+                </div>
+                <div class="horário">
+                    <p>4:58 PM</p>
+                </div>
+            </div>
+        </div>
+        <div class="descrição">
+            <p>Hey there! We're waiting to tell you about our...</p>
+        </div>
+    </div>
+</body>
+</html>
