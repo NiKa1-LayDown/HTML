@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Hamburguer</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            border: 1px solid blue;
+            width: fit-content;
+        }
+
+        #menuu {
+            display: none;
+        }
+
+        #menuu.ativo {
+            display: flex;
+            flex-direction: column;
+            padding: 0px 30px;
+            width: fit-content;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="" id="hamburg" >Exemplo 0</a>
+            <div id="menuu">
+                <a href="">Navegação 1</a>
+                <a href="">Navegação 2</a>
+                <a href="">Navegação 3</a>
+                <a href="">Navegação 4</a>
+                <a href="">Navegação 5</a>
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        const botao = document.getElementById('hamburg')
+        const menu = document.getElementById('menuu')
+
+        botao.addEventListener('click', (e) => {
+            e.preventDefault() //faz com que o menu nao simplesmente feche quando da clique, mantem ele aberto
+            menu.classList.toggle('ativo') //com isso n precisamos necessariamente criar uma classe via js, soh isso aki ja basta
+        })
+
+        document.addEventListener('click', (e) => {
+        if (!menu.contains(e.target) && !botao.contains(e.target)) {
+            menu.classList.remove('ativo')
+        }
+        })
+
+    </script>
+</body>
+</html>
